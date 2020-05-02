@@ -17,11 +17,11 @@
 </head>
 
 <body>
-<!-- проверка -->
-<!-- проверка2 -->
-<!-- проверка3 tarnovskaya -->
-<!-- проверка tornado -->
-<!-- проверка ветки test -->
+    <!-- проверка -->
+    <!-- проверка2 -->
+    <!-- проверка3 tarnovskaya -->
+    <!-- проверка tornado -->
+    <!-- проверка ветки test -->
 
 
     <header>
@@ -435,16 +435,21 @@
             number++
             if (number % 2 == 0) {
                 $(b).css("display", "block");
+
+
             } else {
-                $(b).css("display", "none")
+                $(b).css("display", "none");
+
             }
             // alert($( documsent ).width());
         })
 
         $(window).resize(function () {
-            if ($(window).width() > 840) {
+            if ($(window).width() >= 840) {
                 $(b).css("display", "block");
                 //  alert('Функция выполнена');
+            } else if ($(window).width() < 840) {
+                $(b).css("display", "none");
             }
         });
 
