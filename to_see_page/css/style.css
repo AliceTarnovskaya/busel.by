@@ -178,11 +178,16 @@ main {
     display: flex;
     justify-content: space-around;
 }
-
+.attraction-content{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 .attraction {
     width: 344px;
     /* height: 282px; */
-    margin-top: 22px !important;
+    /* margin-top: 22px; */
     transition-duration: 1s;
     transition-property: all;
     height: 100%;
@@ -466,11 +471,11 @@ footer {
     }
 
     .oktyabarskaya-street {
-        margin-top: 20px !important;
+        margin-top: 20px ;
     }
 
     .upper-city {
-        margin-top: 20px !important;
+        margin-top: 20px ;
     }
 
     .social-networks-footer-ul {
@@ -638,11 +643,11 @@ footer {
     }
 
     .oktyabarskaya-street {
-        margin-top: 20px !important;
+        margin-top: 20px ;
     }
 
     .upper-city {
-        margin-top: 20px !important;
+        margin-top: 20px ;
     }
 
     .social-networks-footer-ul {
