@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: white;
 }
 
 .burger {
@@ -37,7 +37,9 @@
 }
 
 body {
+    
     font-family: 'Montserrat', sans-serif;
+    user-select: none;
 }
 
 header {
@@ -135,9 +137,13 @@ h1 span {
 
 .social-networks {
     font-size: 14px;
-    text-decoration: none;
+    
     list-style: none;
     margin-bottom: 30px;
+}
+.header-social-networks-a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -172,6 +178,7 @@ main {
 
 .text1 {
     padding-top: 30px;
+    width: 344px;
 }
 
 .text-img {
@@ -179,77 +186,134 @@ main {
     justify-content: space-around;
 }
 .attraction-content{
-    height: 1200px;
+    /* height: 1200px; */
     display: flex;
     flex-direction: row;
     
 }
 .attraction {
     width: 344px;
-    /* height: 282px; */
-    margin-top: 22px;
+    height: 282px;
+   
     transition-duration: 1s;
     transition-property: all;
     height: 100%;
     object-fit: cover;
 }
+
+.attraction-block {
+    position: relative;
+    background: #000000;
+    margin-right: 20px;
+    /* margin-top: 200px; */
+    width: 344px;
+    /* height: 282px; */
+    margin-top: 22px;
+}
+.attraction-block-first{
+    margin-top: 140px;
+}
 .upper-city{
     position: relative;
     background: #000000;
     /* margin-top: 200px; */
-    width: 400px;
+    width: 344px;
+    height: 440px;
+    /* margin-bottom: 80px; */
+}
+.upper-city-img{
+    width: 344px;
     height: 440px;
 }
-.attraction-block {
-    position: relative;
-    background: #000000;
-    /* margin-top: 200px; */
-    width: 344px;
-    height: 282px;
-   
-}
-
-.attraction-block:hover .attraction {
+.attraction-block:hover .attraction, .upper-city:hover .attraction{
     opacity: 0.2;
     transition-duration: 1s;
     transition-property: all;
 }
 
-.attraction-block p {
+.attraction-block p, .upper-city p {
     transition-duration: 1s;
     transition-property: all;
     opacity: 0;
 }
 
-.attraction-block button {
+.attraction-block button, .upper-city button {
     transition-duration: 1s;
     transition-property: all;
     opacity: 0;
 }
 
-.attraction-block:hover button {
+.attraction-block:hover button, .upper-city:hover button {
     opacity: 1;
     transition-duration: 1s;
     transition-property: all;
 }
 
-.attraction-block button:hover {
+.attraction-block button:hover, .upper-city button:hover {
     opacity: 1;
     transition-duration: 1s;
     transition-property: all;
 }
 
-.attraction-block p:hover {
+.attraction-block p:hover, .upper-city p:hover  {
     opacity: 1;
     transition-duration: 1s;
     transition-property: all;
 }
 
-.attraction-block:hover p {
+.attraction-block:hover p, .upper-city:hover p {
     opacity: 1;
     transition-duration: 1s;
     transition-property: all;
 }
+
+
+
+
+/* .upper-city:hover .attraction {
+    opacity: 0.2;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.upper-cityk p {
+    transition-duration: 1s;
+    transition-property: all;
+    opacity: 0;
+}
+
+.upper-city button {
+    transition-duration: 1s;
+    transition-property: all;
+    opacity: 0;
+}
+
+.upper-city:hover button {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.upper-city button:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.upper-city p:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.upper-city:hover p {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-property: all;
+} */
+
+
+
 
 .attraction-name {
     font-size: 24px;
@@ -418,7 +482,12 @@ footer {
 
 
 
-
+/* @media (max-width: 1240px) {
+    .container {
+        margin: 0 auto;
+        width: 900px;
+    }
+} */
 
 
 
@@ -432,7 +501,38 @@ footer {
         margin: 0 auto;
         width: 800px;
     }
-
+    .text1{
+        text-align: center;
+    }
+    /* .attraction {
+        width: 344px;
+        height: 282px;
+       
+        transition-duration: 1s;
+        transition-property: all;
+        height: 100%;
+        object-fit: cover;
+    } */
+    .attraction-block {
+        margin-right: 0px;
+        /* margin-top: 200px; */
+        width: 344px;
+        height: 282px;
+        margin-top: 22px;
+    }
+    .attraction-content{
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        
+    }
+    .upper-city-img{
+        width: 344px;
+        height: 440px;
+    }
     .submenu li:first-child {
         margin-right: 5px;
     }
@@ -477,7 +577,7 @@ footer {
     }
 
     .oktyabarskaya-street {
-        margin-top: 20px ;
+        /* margin-top: 20px ; */
     }
 
     .upper-city {
@@ -502,32 +602,18 @@ footer {
         justify-content: center;
     }
 
-    .attraction-block .attraction {
+    .attraction-block .attraction, .upper-city .attraction {
         opacity: 0.2;
         transition-duration: 1s;
         transition-property: all;
     }
 
-    .attraction-block button {
+    .attraction-block button, .upper-city button {
         opacity: 1;
         transition-duration: 1s;
         transition-property: all;
     }
-
-    .attraction-block button {
-        opacity: 1;
-        transition-duration: 1s;
-        transition-property: all;
-    }
-
-    .attraction-block p {
-        opacity: 1;
-        transition-duration: 1s;
-        transition-property: all;
-    }
-
-    .attraction-block p {
-
+    .attraction-block p, .upper-city p {
         opacity: 1;
         transition-duration: 1s;
         transition-property: all;
@@ -649,11 +735,11 @@ footer {
     }
 
     .oktyabarskaya-street {
-        margin-top: 20px ;
+        /* margin-top: 20px ; */
     }
 
     .upper-city {
-        margin-top: 20px ;
+        /* margin-top: 20px ; */
     }
 
     .social-networks-footer-ul {
@@ -665,7 +751,7 @@ footer {
     }
 
     .attraction-block {
-        margin-top: 100px;
+        margin-top: 20px;
     }
 
     .beautiful {
@@ -729,7 +815,7 @@ footer {
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     .container {
         margin: 0 auto;
         max-width: 300px;
@@ -749,10 +835,21 @@ footer {
             margin-left: 35px;
         } */
     .submenu {
-        flex-direction: column;
-        margin-left: 30px;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-top: 60px;
     }
-
+    .submenu .nav-link{
+        padding: 3.5px 8px;
+        font-size: 13px;
+    }
+    .submenu .nav-link:hover{
+        padding: 3.5px 8px;
+        font-size: 13px;
+    }
+    .main-header{
+        margin-top: 50px;
+    }
     .nav-link {
         padding: 1.5px 6px;
         font-size: 12px;
@@ -853,7 +950,12 @@ footer {
     .myFreedom-link {
         font-size: 10px;
     }
-
+    .social-networks-footer-a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    
 
 
 
