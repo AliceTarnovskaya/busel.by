@@ -27,7 +27,7 @@
                                 <li><a class="nav-link" href="#">To do</a></li>
                                 <li><a class="nav-link" href="#">To see</a></li>
                                 <li><a class="nav-link" href="#">To eat</a></li>
-                                <li><a class="nav-link" href="#">Info</a></li>
+                                <li><a class="nav-link" href="/index_info.html">Info</a></li>
                                 <li><a class="nav-link" href="#">Mini-guides</a></li>
                             </ul>
                         </div>
@@ -56,12 +56,12 @@
                             <ul class="social_networks">
                                 <li class="social-networks"><a class="header-social-networks-a" href="#"><i
                                             class="fab fa-instagram fa-2x social-networks-i"></i></a></li>
-                                <li class="social-networks social-networks-header"><a class="header-social-networks-a" href="#"><i
-                                            class="fab fa-facebook-f fa-2x social-networks-i"></i></a></li>
-                                <li class="social-networks social-networks-header"><a class="header-social-networks-a" href="#"><i
-                                            class="fab fa-twitter fa-2x social-networks-i"></i></a></li>
-                                <li class="social-networks social-networks-header"><a class="header-social-networks-a" href="#"><i
-                                            class="fab fa-vk fa-2x social-networks-i"></i></a></li>
+                                <li class="social-networks social-networks-header"><a class="header-social-networks-a"
+                                        href="#"><i class="fab fa-facebook-f fa-2x social-networks-i"></i></a></li>
+                                <li class="social-networks social-networks-header"><a class="header-social-networks-a"
+                                        href="#"><i class="fab fa-twitter fa-2x social-networks-i"></i></a></li>
+                                <li class="social-networks social-networks-header"><a class="header-social-networks-a"
+                                        href="#"><i class="fab fa-vk fa-2x social-networks-i"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -130,9 +130,11 @@
                 </div>
                 <div class="attraction-path">
                     <div class="upper-city ">
-                        <img class="upper-city-img attraction" src="img/to_see_page/church-4775114_960_720 1.png" alt="">
+                        <img class="upper-city-img attraction" src="img/to_see_page/church-4775114_960_720 1.png"
+                            alt="">
                         <p class="attraction-name">Upper city</p>
-                        <p class="distance"><img src="img/to_see_page/to_see_page/location_icon.png" alt="">Minsk (~700m)</p>
+                        <p class="distance"><img src="img/to_see_page/to_see_page/location_icon.png" alt="">Minsk
+                            (~700m)</p>
                         <button class="show-maps"><a class="maps"
                                 href="https://www.google.com/maps/place/%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B9+%D0%B3%D0%BE%D1%80%D0%BE%D0%B4/@53.9089197,27.5551285,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbcf948a459879:0xbecd7f8aae6c86c9!8m2!3d53.9089197!4d27.5573172">Show
                                 in Google.Maps</a></button>
@@ -155,8 +157,6 @@
                     </div>
                 </div>
             </div>
-           
-
     </main>
     <footer>
         <div class="gradient-footer">
@@ -193,7 +193,7 @@
                                 <li class="quick-link-li"><a class="quick-link-a" href="#">Places to do</a></li>
                                 <li class="quick-link-li"><a class="quick-link-a" href="#">Places to see</a></li>
                                 <li class="quick-link-li"><a class="quick-link-a" href="#">Mini-guides</a></li>
-                                <li class="quick-link-li"><a class="quick-link-a" href="#">Info</a></li>
+                                <li class="quick-link-li"><a class="quick-link-a" href="/index_info.html">Info</a></li>
                                 <li class="quick-link-li"><a class="quick-link-a" href="#">Faq</a></li>
                             </ul>
                         </div>
@@ -217,60 +217,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/4d882c98ea.js" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(function () {
-            $(".burger").click(function () {
-                if (number % 2 == 0) {
-                    $(".burger__line_third").show();
-                    $(".burger__line_first").css('top', '0');
-                    $(".burger__line_second").css('bottom', '9px');
-                    $(".burger__line_first").css('transform', 'rotate(0)');
-                    $(".burger__line_second").css('transform', 'rotate(0)');
-                } else {
-
-                    $(".burger__line_third").hide();
-                    $(".burger__line_first").css('top', '9px');
-                    $(".burger__line_second").css('bottom', '9px');
-                    $(".burger__line_first").css('transform', 'rotate(45deg)');
-                    $(".burger__line_second").css('transform', 'rotate(-45deg)');
-                }
-
-            });
-        });
-
-
-        let button = document.getElementById("clickblock");
-        let navmenu = document.getElementById("b");
-        let number = 1;
-        let i = -1;
-        $(button).click(function () {
-            number++
-            if (number % 2 == 0) {
-                $(b).css("display", "block");
-                $(b).css("transition-duration", "1s");
-
-            } else {
-                $(b).css("display", "none");
-
-            }
-            
-        })
-
-        $(window).resize(function () {
-            if ($(window).width() >= 840) {
-                $(b).css("display", "block");
-               
-            } else if ($(window).width() < 840) {
-                $(b).css("display", "none");
-                $(".burger__line_third").show();
-                    $(".burger__line_first").css('top', '0');
-                    $(".burger__line_second").css('bottom', '9px');
-                    $(".burger__line_first").css('transform', 'rotate(0)');
-                    $(".burger__line_second").css('transform', 'rotate(0)');
-            }
-        });
-
-    </script>
+    <script src="js/burger.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,38 @@
+/* main part */
+
+@mixin background-header ($bg-img, $bg-size, $bg-blend-mode) {
+    background: $bg-img, linear-gradient(180deg, #000000 -7%, rgba(0, 0, 0, 0) 39.06%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: $bg-size;
+    background-blend-mode: $bg-blend-mode;
+}
+
+.main-page-header {
+    @include background-header(url(../img/main_page/header-main.jpg), cover, color-burn);
+}
+
+a.discover-link {
+    max-width: 400px;
+    color: white;
+    font-weight: 700;
+    border: 0.5px solid white;
+    padding: 10px 50px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 14px;
+    transition-duration: 0.3s;
+    &:hover {
+        text-decoration: none;
+        background:white;
+        color:black;
+        transition-duration: 0.3s;
+    }
+}
+
+.discover {
+    justify-content: center;
+    margin-top: 20px;
+    align-items: flex-end;
+    min-height: 250px;
+}
