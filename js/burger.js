@@ -35,8 +35,7 @@ $(button).click(function () {
         $(b).css("display", "none");
 
     }
-
-})
+    
 
 $(window).resize(function () {
     if ($(window).width() >= 840) {
