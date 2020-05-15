@@ -11,17 +11,22 @@
 .main-page-header {
   @include background-header(url(../img/main_page/header-main.jpg), cover, color-burn);
 }
-.container{
-  max-width: 1250px;;
+
+.container {
+  max-width: 1250px;
+  ;
 }
-.to-see-main{
+
+.to-see-main {
   display: flex;
   justify-content: row;
-  h1{
-     margin-left: -50px;
+
+  h1 {
+    margin-left: -50px;
   }
- 
+
 }
+
 a.discover-link {
   max-width: 400px;
   color: white;
@@ -32,6 +37,7 @@ a.discover-link {
   text-align: center;
   font-size: 14px;
   transition: 0.3s;
+
   &:hover {
     text-decoration: none;
     color: #00b25c;
@@ -53,11 +59,13 @@ a.discover-link {
   width: 1440px;
   height: 662px;
   background: #000000;
+
   .numbers-block-main__discover-word {
     // display: flex;
     // justify-content: center;
     width: 1200px;
     padding-top: 100px;
+
     .numbers-block-main__discover-text {
       width: 100%;
       font-weight: bold;
@@ -66,13 +74,16 @@ a.discover-link {
       color: rgba(255, 255, 255, 0.04);
     }
   }
+
   .numbers-block-main__number-place-block {
     width: 240px;
     transition: 0.3s;
+
     &:hover {
       transform: scale(1.1);
       transition: 0.3s;
     }
+
     .numbers-block-main__number-place-block-text-h2 {
       font-weight: bold;
       font-size: 20px;
@@ -80,21 +91,25 @@ a.discover-link {
       color: #00b25c;
     }
   }
+
   .number-place-block1 {
     position: absolute;
     top: 100px;
     left: 90px;
   }
+
   .number-place-block2 {
     position: absolute;
     top: 200px;
     left: 470px;
   }
+
   .number-place-block3 {
     position: absolute;
     top: 300px;
     left: 850px;
   }
+
   .numbers-block-main__number-place-block-text-h1 {
     font-weight: bold;
     font-size: 100px;
@@ -103,12 +118,15 @@ a.discover-link {
     color: #ffffff;
   }
 }
-.main-main{
+
+.main-main {
   background: #000000;
 }
+
 .to-eat-main {
   .to-eat-main__text {
     padding: 70px 0px 100px;
+
     .to-eat-main__h1 {
       font-weight: bold;
       font-size: 50px;
@@ -116,10 +134,12 @@ a.discover-link {
       color: #ffffff;
       padding-bottom: 30px;
       width: 444px;
+
       .to-eat-main__h1-green {
         color: #00b25c;
       }
     }
+
     .to-eat-main__h2 {
       width: 592px;
       font-size: 20px;
@@ -128,32 +148,38 @@ a.discover-link {
     }
   }
 }
+
 .main-attraction-container {
   display: flex;
   justify-content: space-between;
   background: #000000;
   padding-bottom: 90px;
+
   .main-attraction-block-main {
     &:hover {
       .main-attraction-block-container-width {
         opacity: 1;
         transition: 0.5s;
       }
+
       .main-attraction-block-img {
         opacity: 0.2;
         transition: 0.5s;
       }
     }
+
     background: #000000;
     position: relative;
     // width: 409px;
     height: 523px;
+
     .main-attraction-block-img {
       transition: 0.5s;
       // z-index: 1;
       // width: 409px !important;
-      height: 523px ;
+      height: 523px;
     }
+
     .main-attraction-block-container-width {
       transition: 0.5s;
       opacity: 0;
@@ -162,30 +188,37 @@ a.discover-link {
       z-index: 3;
       //
       width: 409px;
+
       .main-attraction-block-container {
         margin: 0 auto;
         width: 326px;
       }
+
       .main-attraction-block-inf-top {
         display: flex;
         justify-content: space-between;
         margin-top: 25px;
+
         .main-attraction-block-star {
+
           // width: ;
           .star {
             padding-right: 10px;
             color: #00b25c;
           }
+
           .span-star {
             color: #00b25c;
           }
         }
+
         .main-attraction-block-dollar {
           .dollar {
             color: #00b25c;
           }
         }
       }
+
       .main-attraction-block-text {
         margin-top: 55px;
         margin-bottom: 80px;
@@ -193,6 +226,7 @@ a.discover-link {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
         .main-attraction-block-h1 {
           text-align: center;
 
@@ -201,6 +235,7 @@ a.discover-link {
           line-height: 43px;
           color: #ffffff;
         }
+
         .main-attraction-block-h2 {
           text-align: center;
           font-weight: normal;
@@ -209,6 +244,7 @@ a.discover-link {
           color: #ffffff;
         }
       }
+
       .main-attraction-block-inf {
         margin-bottom: 60px;
 
@@ -218,18 +254,21 @@ a.discover-link {
           font-size: 16px;
           line-height: 20px;
           color: #ffffff;
+
           .main-attraction-block-inf-i {
             vertical-align: middle;
             font-size: 30px;
             padding-right: 15px;
           }
         }
-        .main-attraction-block-inf-p-inf{
+
+        .main-attraction-block-inf-p-inf {
           // width: 277px;
           font-weight: normal;
           font-size: 12px;
           line-height: 20px;
           color: #ffffff;
+
           .main-attraction-block-inf-i {
             vertical-align: middle;
             font-size: 30px;
@@ -237,9 +276,11 @@ a.discover-link {
           }
         }
       }
+
       .main-attraction-block-button-value {
         display: flex;
         justify-content: space-between;
+
         .main-attraction-block-button1 {
           padding: 12px 30px;
           border: none;
@@ -247,15 +288,18 @@ a.discover-link {
           border: 1px solid #00b25c;
           border-radius: 35px;
           transition: 0.3s;
+
           .main-attraction-block-button-a1 {
             text-decoration: none;
             color: white;
           }
         }
+
         .main-attraction-block-button1:hover {
           background: #00b25c;
           transition: 0.3s;
         }
+
         .main-attraction-block-button2 {
           padding: 12px 34px;
           border: none;
@@ -263,11 +307,13 @@ a.discover-link {
           border: 1px solid #00b25c;
           border-radius: 35px;
           transition: 0.2s;
+
           .main-attraction-block-button-a2 {
             text-decoration: none;
             color: white;
           }
         }
+
         .main-attraction-block-button2:hover {
           background: #00b25c;
           transition: 0.3s;
@@ -276,28 +322,32 @@ a.discover-link {
     }
   }
 }
-.main-attraction-block-button-places-chek{
+
+.main-attraction-block-button-places-chek {
   display: flex;
   justify-content: center;
   padding-bottom: 136px;
-  .main-attraction-block-button-places-chek-button{
+
+  .main-attraction-block-button-places-chek-button {
     padding: 12px 60px;
     background: transparent;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 35px;
     transition: 0.4s;
-    &:hover{
+
+    &:hover {
       border: 1px solid #00b25c;
       // background: #00b25c;
       transition: 0.4s;
-      .main-attraction-block-button-places-chek-button-a{
+
+      .main-attraction-block-button-places-chek-button-a {
         transition: 0.4s;
         color: #00b25c;
       }
     }
-    
-    .main-attraction-block-button-places-chek-button-a{
+
+    .main-attraction-block-button-places-chek-button-a {
       transition: 0.4s;
       text-decoration: none;
       font-weight: bold;
@@ -307,62 +357,579 @@ a.discover-link {
     }
   }
 }
-.to-do-main__text{
+
+.to-do-main__text {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
   // justify-content: flex-end;
 }
-.dop-class-main-attraction-block-text{
+
+.dop-class-main-attraction-block-text {
   margin-bottom: 20px !important;
 }
-@media(max-width: 840px){
-  .container{
-    max-width: 580px;;
+
+// main page. karina's part
+
+
+
+.main-news {
+  background: url('../img/main_page/news-bg-shadow.png'), url('../img/main_page/museum.jpg');
+  min-height: 397px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 47%;
+  padding-top: 155px;
+  color: white;
+}
+
+.main-news p {
+  font-weight: bold;
+  width: 520px;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lifehacks {
+  background-color: #000;
+  min-height: 776px;
+  padding-top: 97px;
+}
+
+.lifehacks h2 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.green-text {
+  color: #00B25C;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  width: 592px;
+  margin-bottom: 129px;
+}
+
+.lifehacks .text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.lifehacks .lifehack-item p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.lifehacks .lifehack-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.lifehacks .lifehack-item {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  /* height: 240px; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.lifehacks .lifehack-item img {
+  margin-bottom: 50px;
+}
+
+.lifehacks .lifehack-item a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.lifehacks button {
+  border: 1px solid #FFFFFF;
+  border-radius: 35px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 44px;
+}
+
+.lifehacks button:hover {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
+
+.lifehacks .btn-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 82px;
+}
+
+.lifehacks button:active {
+  background-color: transparent !important;
+}
+
+section.places {  
+  background-color: #000;
+ 
+}
+
+
+@media (max-width: 480px) {
+ 
+  .main-news h2 {
+    font-size: 16px;
+    width: inherit;
+    line-height: 27px;
+    margin-bottom: 30px;
   }
-  .numbers-block-main{
+
+  .main-news {
+    background-size: cover, 250%;
+    padding-top: 145px;
+    background-position-y: 67%;
+    background-position-x: 50%;
+  }
+
+  .lifehacks {
+    padding-top: 80px;
+  }
+
+  .lifehacks h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 129px;
+
+  }
+
+  .lifehacks .lifehack-item img {
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  .lifehack-block .lifehack-item p {
+    width: auto;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .lifehack-block .lifehack-item {
+    margin-bottom: 50px;
+  }
+
+  .lifehacks .btn-center {
+    margin-top: 0;
+  }
+
+  // .places {
+  //   display: none;
+  // }
+
+  // .places h2 {
+  //   width: auto;
+  // }
+
+  // .places .pictures {
+  //   display: none;
+  // }
+
+  // .places .subtitle {
+  //   margin-bottom: 60px;
+  // }
+
+  // .places .pictures-480 {
+  //   display: block;
+  // }
+
+  // .places .pictures-480 img {
+  //   width: inherit;
+  //   margin-bottom: 25px;
+  // }
+
+  // .places .pictures-480 img:last-child {
+  //   margin-bottom: 0;
+  // }
+
+  // footer {
+  //   background-size: cover;
+  //   background-position-x: 40%;
+
+  // }
+
+  // footer .empty {
+  //   display: none;
+  // }
+
+  // footer .smth-info {
+  //   margin-top: 50px;
+  // }
+
+  // footer .smth-info p {
+  //   line-height: 10px;
+  //   text-align: center;
+  // }
+
+  // footer .logo {
+  //   display: none;
+  // }
+
+  // footer .email span {
+  //   display: inline-block;
+  //   margin-left: 0;
+  // }
+
+  // header {
+  //   height: 600px;
+  // }
+
+  .head-1 {
     display: none;
   }
-  .main-attraction-container{
+
+  .head-1-adaptive {
+    display: inline-block;
+    padding-left: 10px;
+  }
+
+  .head-1-adaptive-a a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+  }
+
+  .head-1-adaptive-a {
+    padding-top: 20px;
+  }
+
+  .icons-header-adaptive {
+    display: block;
+    position: absolute;
+    top: 460px;
+    right: 290px;
+  }
+
+  .top-places {
+    padding-left: 10px;
+    font-size: 40px;
+  }
+
+  .to-eat {
+    font-size: 40px;
+  }
+
+  .divinline {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .discover {
+    display: none;
+  }
+
+  .button-see-more-places {
+    padding-left: 50px !important;
+  }
+
+  .top-places-2 {
+    padding-left: 10px;
+  }
+
+  .this-quarter-2 {
+    padding-left: 10px;
+  }
+
+  .button-see-more-places-2 {
+    padding-left: 50px !important;
+  }
+
+  .slip-2-2 {
+    padding-left: 20px;
+  }
+
+  .slip-3-2 {
+    padding-left: 20px;
+  }
+
+  .text-center p {
+    width: 400px;
+  }
+
+  .lifehack-item p {
+    font-size: 10px !important;
+    width: 100px !important;
+    margin-left: 20px;
+  }
+
+  .btn-center {
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 0;
+  }
+
+  .smth-info p {
+    font-size: 15px !important;
+    padding: 8px !important;
+  }
+
+  .peshh {
+    font-size: 15px !important;
+    padding: 3px !important;
+  }
+
+  .peshh span {
+    font-size: 15px !important;
+    padding: 3px !important;
+  }
+
+  .networks i {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .quick {
+    color: white;
+    font-size: 17px;
+  }
+
+  .links a {
+    font-size: 10px;
+  }
+
+  .linkss {
+    margin-top: 150px;
+    padding-right: 5px;
+  }
+
+  .linksss {
+    margin-top: 150px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 769px) {
+  .number-for-us-three {
+    padding-left: 200px;
+    padding-top: 60px;
+  }
+
+  .main-news h2 {
+    font-size: 16px;
+    /* width: auto; */
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+
+  .main-news {
+    background-size: cover, 250%;
+    padding-top: 145px;
+    background-position-y: 67%;
+    background-position-x: 50%;
+  }
+
+  .lifehacks .subtitle {
+    width: auto;
+  }
+
+
+  // footer .empty {
+  //   display: none;
+  // }
+
+  // footer h3 {
+  //   font-size: 22px;
+  // }
+
+  // footer {
+  //   background-size: cover;
+  //   background-position-x: 40%;
+
+  // }
+
+  .logo-main {
+    width: 100px;
+    height: 70px;
+  }
+
+  .head-1 a {
+    font-size: 10px;
+  }
+
+  .english-main {
+    margin-left: 20px;
+  }
+
+  .discover {
+    margin-left: 180px;
+  }
+
+  .numbers-for-us p {
+    font-size: 30px;
+  }
+
+  .sssss {
+    font-size: 50px !important;
+  }
+
+  .slips {
+    padding-left: 170px;
+  }
+
+  .slip-2 {
+    padding-left: 170px;
+  }
+
+  .slip-3 {
+    padding-left: 170px;
+  }
+
+  .top-places-2 {
+    padding-left: 0;
+  }
+
+  .this-quarter-2 {
+    padding-left: 0;
+  }
+
+  .slip-2-2 {
+    padding-left: 170px;
+  }
+
+  .slip-3-2 {
+    padding-left: 170px;
+  }
+
+  .button-see-more-places-2 {
+    padding-left: 200px !important;
+  }
+
+  // .places {
+  //   display: none;
+  // }
+
+  .networks i {
+    font-size: 30px;
+  }
+
+  .button-see-more-places {
+    padding-left: 200px !important;
+  }
+
+  .btn-center div {
+    padding-left: 100px;
+  }
+
+  .white-church {
+    display: none;
+  }
+
+  .discover {
+    display: none !important;
+  }
+}
+
+
+// end karina's part
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 840px) {
+  .container {
+    max-width: 580px;
+    ;
+  }
+
+  .numbers-block-main {
+    display: none;
+  }
+
+  .main-attraction-container {
     flex-direction: column;
     align-items: center;
-    .main-attraction-block-main{
+
+    .main-attraction-block-main {
       margin-top: 20px;
     }
   }
-  .to-eat-main__text{
+
+  .to-eat-main__text {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .main-attraction-container{
-    .main-attraction-block-main{
-      .main-attraction-block-container-width{
+
+  .main-attraction-container {
+    .main-attraction-block-main {
+      .main-attraction-block-container-width {
         opacity: 1;
       }
-    } 
-  } 
+    }
+  }
+
   .main-attraction-block-img {
     opacity: 0.2;
-    
+
   }
-  
- 
+
+
 }
-@media(max-width: 480px){
-  .to-eat-main .to-eat-main__text .to-eat-main__h1{
-     font-size: 34px;
-    .to-eat-main__h1-green{
+
+@media(max-width: 480px) {
+  .to-eat-main .to-eat-main__text .to-eat-main__h1 {
+    font-size: 34px;
+
+    .to-eat-main__h1-green {
       font-size: 34px;
     }
   }
-  .to-eat-main .to-eat-main__text .to-eat-main__h2{
+
+  .to-eat-main .to-eat-main__text .to-eat-main__h2 {
     width: 300px;
     font-size: 18px;
   }
-  .to-eat-main .to-eat-main__text{
+
+  .to-eat-main .to-eat-main__text {
     padding-bottom: 40px;
   }
 }

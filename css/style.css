@@ -305,6 +305,395 @@ a.discover-link:hover {
   margin-bottom: 20px !important;
 }
 
+.main-news {
+  background: url("../img/main_page/news-bg-shadow.png"), url("../img/main_page/museum.jpg");
+  min-height: 397px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 47%;
+  padding-top: 155px;
+  color: white;
+}
+
+.main-news p {
+  font-weight: bold;
+  width: 520px;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lifehacks {
+  background-color: #000;
+  min-height: 776px;
+  padding-top: 97px;
+}
+
+.lifehacks h2 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.green-text {
+  color: #00B25C;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  width: 592px;
+  margin-bottom: 129px;
+}
+
+.lifehacks .text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.lifehacks .lifehack-item p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.lifehacks .lifehack-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.lifehacks .lifehack-item {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  /* height: 240px; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.lifehacks .lifehack-item img {
+  margin-bottom: 50px;
+}
+
+.lifehacks .lifehack-item a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.lifehacks button {
+  border: 1px solid #FFFFFF;
+  border-radius: 35px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 44px;
+}
+
+.lifehacks button:hover {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}
+
+.lifehacks .btn-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 82px;
+}
+
+.lifehacks button:active {
+  background-color: transparent !important;
+}
+
+section.places {
+  background-color: #000;
+}
+
+@media (max-width: 480px) {
+  .main-news h2 {
+    font-size: 16px;
+    width: inherit;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+
+  .main-news {
+    background-size: cover, 250%;
+    padding-top: 145px;
+    background-position-y: 67%;
+    background-position-x: 50%;
+  }
+
+  .lifehacks {
+    padding-top: 80px;
+  }
+
+  .lifehacks h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 129px;
+  }
+
+  .lifehacks .lifehack-item img {
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  .lifehack-block .lifehack-item p {
+    width: auto;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .lifehack-block .lifehack-item {
+    margin-bottom: 50px;
+  }
+
+  .lifehacks .btn-center {
+    margin-top: 0;
+  }
+
+  .head-1 {
+    display: none;
+  }
+
+  .head-1-adaptive {
+    display: inline-block;
+    padding-left: 10px;
+  }
+
+  .head-1-adaptive-a a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+  }
+
+  .head-1-adaptive-a {
+    padding-top: 20px;
+  }
+
+  .icons-header-adaptive {
+    display: block;
+    position: absolute;
+    top: 460px;
+    right: 290px;
+  }
+
+  .top-places {
+    padding-left: 10px;
+    font-size: 40px;
+  }
+
+  .to-eat {
+    font-size: 40px;
+  }
+
+  .divinline {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .discover {
+    display: none;
+  }
+
+  .button-see-more-places {
+    padding-left: 50px !important;
+  }
+
+  .top-places-2 {
+    padding-left: 10px;
+  }
+
+  .this-quarter-2 {
+    padding-left: 10px;
+  }
+
+  .button-see-more-places-2 {
+    padding-left: 50px !important;
+  }
+
+  .slip-2-2 {
+    padding-left: 20px;
+  }
+
+  .slip-3-2 {
+    padding-left: 20px;
+  }
+
+  .text-center p {
+    width: 400px;
+  }
+
+  .lifehack-item p {
+    font-size: 10px !important;
+    width: 100px !important;
+    margin-left: 20px;
+  }
+
+  .btn-center {
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 0;
+  }
+
+  .smth-info p {
+    font-size: 15px !important;
+    padding: 8px !important;
+  }
+
+  .peshh {
+    font-size: 15px !important;
+    padding: 3px !important;
+  }
+
+  .peshh span {
+    font-size: 15px !important;
+    padding: 3px !important;
+  }
+
+  .networks i {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .quick {
+    color: white;
+    font-size: 17px;
+  }
+
+  .links a {
+    font-size: 10px;
+  }
+
+  .linkss {
+    margin-top: 150px;
+    padding-right: 5px;
+  }
+
+  .linksss {
+    margin-top: 150px;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 769px) {
+  .number-for-us-three {
+    padding-left: 200px;
+    padding-top: 60px;
+  }
+
+  .main-news h2 {
+    font-size: 16px;
+    /* width: auto; */
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+
+  .main-news {
+    background-size: cover, 250%;
+    padding-top: 145px;
+    background-position-y: 67%;
+    background-position-x: 50%;
+  }
+
+  .lifehacks .subtitle {
+    width: auto;
+  }
+
+  .logo-main {
+    width: 100px;
+    height: 70px;
+  }
+
+  .head-1 a {
+    font-size: 10px;
+  }
+
+  .english-main {
+    margin-left: 20px;
+  }
+
+  .discover {
+    margin-left: 180px;
+  }
+
+  .numbers-for-us p {
+    font-size: 30px;
+  }
+
+  .sssss {
+    font-size: 50px !important;
+  }
+
+  .slips {
+    padding-left: 170px;
+  }
+
+  .slip-2 {
+    padding-left: 170px;
+  }
+
+  .slip-3 {
+    padding-left: 170px;
+  }
+
+  .top-places-2 {
+    padding-left: 0;
+  }
+
+  .this-quarter-2 {
+    padding-left: 0;
+  }
+
+  .slip-2-2 {
+    padding-left: 170px;
+  }
+
+  .slip-3-2 {
+    padding-left: 170px;
+  }
+
+  .button-see-more-places-2 {
+    padding-left: 200px !important;
+  }
+
+  .networks i {
+    font-size: 30px;
+  }
+
+  .button-see-more-places {
+    padding-left: 200px !important;
+  }
+
+  .btn-center div {
+    padding-left: 100px;
+  }
+
+  .white-church {
+    display: none;
+  }
+
+  .discover {
+    display: none !important;
+  }
+}
 @media (max-width: 840px) {
   .container {
     max-width: 580px;
@@ -851,8 +1240,7 @@ footer {
 body {
   font-family: "Montserrat", sans-serif;
   -webkit-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
+  user-select: none;
 }
 
 .toSee-header {
