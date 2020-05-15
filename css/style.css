@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -1240,7 +1241,8 @@ footer {
 body {
   font-family: "Montserrat", sans-serif;
   -webkit-user-select: none;
-  user-select: none;
+  -ms-user-select: none;
+      user-select: none;
 }
 
 .toSee-header {
@@ -2051,3 +2053,25 @@ footer {
     text-decoration: none;
   }
 }
+/* убираем синюю обводку при нажатии на кнопку */
+button:active, button:hover, button:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+/* -----------START HEADER-------------  */
+.todo-page-header {
+  background: url(../img/to_do_page/todo_bg.png), linear-gradient(180deg, #000000 -7%, rgba(0, 0, 0, 0) 39.06%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+/* -----------END HEADER-------------  */
+/* -----------START MAIN-------------  */
+/* -----------END MAIN-------------  */
+/* -----------START FOOTER-------------  */
+/* -----------END FOOTER-------------  */
+/* -----------RESPONSIVE-------------  */
+/* --------------lg- responsive-------------------- */
