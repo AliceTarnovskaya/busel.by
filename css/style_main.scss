@@ -14,7 +14,7 @@
 
 .container {
   max-width: 1250px;
-  
+
 }
 
 .to-see-main {
@@ -56,14 +56,13 @@ a.discover-link {
 
 .numbers-block-main {
   position: relative;
-  width: 1440px;
-  height: 662px;
+  // width: 1440px;
+  min-height: 662px;
   background: #000000;
 
   .numbers-block-main__discover-word {
-    // display: flex;
-    // justify-content: center;
-    width: 1200px;
+    // margin: 0 auto;
+    // width: 1200px;
     padding-top: 100px;
 
     .numbers-block-main__discover-text {
@@ -484,14 +483,36 @@ a.discover-link {
   background-color: transparent !important;
 }
 
-section.places {  
+section.places {
   background-color: #000;
- 
+
 }
+
+// @media(max-width: 1100px) {
+//   .container{
+//     width: 890px;
+//   }
+//   .numbers-block-main .numbers-block-main__number-place-block{
+//     width: 170px;
+//   }
+//   .numbers-block-main .numbers-block-main__discover-word .numbers-block-main__discover-text{
+//     font-size: 190px;
+//     padding-left: 100px; 
+//   }
+//   .numbers-block-main .numbers-block-main__number-place-block-text-h1{
+//     font-size: 70px;
+//     text-align: left;
+//     margin-bottom: 0;
+//   }
+//   .numbers-block-main .numbers-block-main__number-place-block .numbers-block-main__number-place-block-text-h2{
+//     font-size: 14px;
+//     // text-align: center;
+//   }
+// }
 
 
 @media (max-width: 480px) {
- 
+
   .main-news h2 {
     font-size: 16px;
     width: inherit;
@@ -530,79 +551,27 @@ section.places {
   }
 
   .lifehack-block .lifehack-item p {
-    width: auto;
+    // width: auto;
     font-size: 14px;
-    text-align: left;
+    // text-align: left;
   }
 
   .lifehack-block .lifehack-item {
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .lifehacks .lifehack-block {
+    flex-direction: column;
   }
 
   .lifehacks .btn-center {
     margin-top: 0;
   }
-
-  // .places {
-  //   display: none;
-  // }
-
-  // .places h2 {
-  //   width: auto;
-  // }
-
-  // .places .pictures {
-  //   display: none;
-  // }
-
-  // .places .subtitle {
-  //   margin-bottom: 60px;
-  // }
-
-  // .places .pictures-480 {
-  //   display: block;
-  // }
-
-  // .places .pictures-480 img {
-  //   width: inherit;
-  //   margin-bottom: 25px;
-  // }
-
-  // .places .pictures-480 img:last-child {
-  //   margin-bottom: 0;
-  // }
-
-  // footer {
-  //   background-size: cover;
-  //   background-position-x: 40%;
-
-  // }
-
-  // footer .empty {
-  //   display: none;
-  // }
-
-  // footer .smth-info {
-  //   margin-top: 50px;
-  // }
-
-  // footer .smth-info p {
-  //   line-height: 10px;
-  //   text-align: center;
-  // }
-
-  // footer .logo {
-  //   display: none;
-  // }
-
-  // footer .email span {
-  //   display: inline-block;
-  //   margin-left: 0;
-  // }
-
-  // header {
-  //   height: 600px;
-  // }
 
   .head-1 {
     display: none;
@@ -649,7 +618,7 @@ section.places {
   }
 
   .button-see-more-places {
-    padding-left: 50px !important;
+    padding-left: 50px;
   }
 
   .top-places-2 {
@@ -661,7 +630,7 @@ section.places {
   }
 
   .button-see-more-places-2 {
-    padding-left: 50px !important;
+    padding-left: 50px;
   }
 
   .slip-2-2 {
@@ -673,13 +642,14 @@ section.places {
   }
 
   .text-center p {
-    width: 400px;
+    width: 350px;
   }
 
   .lifehack-item p {
-    font-size: 10px !important;
-    width: 100px !important;
-    margin-left: 20px;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    // margin-left: 20px;
   }
 
   .btn-center {
@@ -689,18 +659,18 @@ section.places {
   }
 
   .smth-info p {
-    font-size: 15px !important;
-    padding: 8px !important;
+    font-size: 15px;
+    padding: 8px;
   }
 
   .peshh {
-    font-size: 15px !important;
-    padding: 3px !important;
+    font-size: 15px;
+    padding: 3px;
   }
 
   .peshh span {
-    font-size: 15px !important;
-    padding: 3px !important;
+    font-size: 15px;
+    padding: 3px;
   }
 
   .networks i {
@@ -713,9 +683,6 @@ section.places {
     font-size: 17px;
   }
 
-  .links a {
-    font-size: 10px;
-  }
 
   .linkss {
     margin-top: 150px;
@@ -870,7 +837,77 @@ section.places {
 
 
 
+@media(max-width: 1040px) {
+  .numbers-block-main {
+    // width: 100%;
+    // height: 100%;
+    .numbers-block-main__discover-word {
+      // display: flex;
+      // justify-content: start;
+      transition: 0.3s;
+      &:hover{
+        transition: 0.3s;
+        transform: scale(1.1)
+      }
+      .numbers-block-main__discover-text {
+        transition: 0.3s;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        width: 800px;
+        // display: block;
+        font-size: 150px;
+        &:hover{
+          transition: 0.3s;
+        }
+      }
+    }
+    .numbers-block-main__number-place-container{
+      width: 100%;
+      // text-align: center;
+      display: flex;
+      justify-content: space-between;
+      width: 850px;
+      margin: 0 auto;
+    }
+    .numbers-block-main__number-place-block {
+      // width: 300px;
+      display: block;
+      position: static;
+      
+    }
+  }
 
+
+  .main-attraction-container {
+    flex-direction: column;
+    align-items: center;
+
+    .main-attraction-block-main {
+      margin-top: 20px;
+    }
+  }
+
+  .to-eat-main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-attraction-container {
+    .main-attraction-block-main {
+      .main-attraction-block-container-width {
+        opacity: 1;
+      }
+    }
+  }
+
+  .main-attraction-block-img {
+    opacity: 0.2;
+
+  }
+
+}
 
 
 @media(max-width: 840px) {

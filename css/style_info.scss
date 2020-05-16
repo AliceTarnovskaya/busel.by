@@ -17,9 +17,15 @@ button:active, button:hover, button:focus {
   }
 
 
+.gradient-row-info{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.21%, #000000 101.5%);
+  min-height: 800px;
+}
+
 .find {
   font-weight: bold;
   font-size: 40px;
+  
 }
 
 .inf {
@@ -359,9 +365,12 @@ footer {
     height: 476px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 520px) {
+  .to-see{
+    max-width: 100%;
+  }
   .gradient-row-info{
-    min-height: 400px;
+    min-height: 550px;
   }
   // .first-li{
   //   display: none;
