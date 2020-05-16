@@ -22,10 +22,6 @@
   display: flex;
   justify-content: row;
 }
-.to-see-main h1 {
-  margin-left: -50px;
-}
-
 a.discover-link {
   max-width: 400px;
   color: white;
@@ -585,13 +581,6 @@ section.places {
     font-size: 17px;
   }
 
-<<<<<<< HEAD
-  .links a {
-    font-size: 10px;
-  }
-
-=======
->>>>>>> a849babce1db00b645313f8960ee5b0e6d16a550
   .linkss {
     margin-top: 150px;
     padding-right: 5px;
@@ -1498,44 +1487,51 @@ main {
   height: 440px;
 }
 
-.attraction-block:hover .attraction, .upper-city:hover .attraction {
+.attraction-block:hover .attraction,
+.upper-city:hover .attraction {
   opacity: 0.2;
   transition-duration: 0.5s;
   transition-property: all;
   /* box-shadow: 0px 0px 30px 10px white; */
 }
 
-.attraction-block p, .upper-city p {
+.attraction-block p,
+.upper-city p {
   transition-duration: 1s;
   transition-property: all;
   opacity: 0;
 }
 
-.attraction-block button, .upper-city button {
+.attraction-block button,
+.upper-city button {
   transition-duration: 1s;
   transition-property: all;
   opacity: 0;
 }
 
-.attraction-block:hover button, .upper-city:hover button {
+.attraction-block:hover button,
+.upper-city:hover button {
   opacity: 1;
   transition-duration: 1s;
   transition-property: all;
 }
 
-.attraction-block button:hover, .upper-city button:hover {
+.attraction-block button:hover,
+.upper-city button:hover {
   opacity: 1;
   transition-duration: 1s;
   transition-property: all;
 }
 
-.attraction-block p:hover, .upper-city p:hover {
+.attraction-block p:hover,
+.upper-city p:hover {
   opacity: 1;
   transition-duration: 1s;
   transition-property: all;
 }
 
-.attraction-block:hover p, .upper-city:hover p {
+.attraction-block:hover p,
+.upper-city:hover p {
   opacity: 1;
   transition-duration: 1s;
   transition-property: all;
@@ -1784,19 +1780,22 @@ footer {
     justify-content: center;
   }
 
-  .attraction-block .attraction, .upper-city .attraction {
+  .attraction-block .attraction,
+.upper-city .attraction {
     opacity: 0.2;
     transition-duration: 1s;
     transition-property: all;
   }
 
-  .attraction-block button, .upper-city button {
+  .attraction-block button,
+.upper-city button {
     opacity: 1;
     transition-duration: 1s;
     transition-property: all;
   }
 
-  .attraction-block p, .upper-city p {
+  .attraction-block p,
+.upper-city p {
     opacity: 1;
     transition-duration: 1s;
     transition-property: all;
@@ -1831,8 +1830,8 @@ footer {
   }
 
   /* .submenu:first-child{
-          display: none;
-      }  */
+            display: none;
+        }  */
   .langue-header {
     padding-left: 450px;
   }
@@ -1856,16 +1855,20 @@ footer {
   .to-see {
     /* padding-left: 60px */
     text-align: center;
+    max-width: 100%;
     /* display: flex;
-        justify-content: center;
-        align-items: center; */
+          justify-content: center;
+          align-items: center; */
   }
 
   h1 {
-    /* display: flex;
-        justify-content: center; */
+    display: flex;
+    justify-content: center;
     font-size: 30px;
     font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
   }
 
   h1 span {
@@ -1968,7 +1971,8 @@ footer {
     text-align: center;
   }
 
-  footer p, footer a {
+  footer p,
+footer a {
     line-height: 2;
   }
 
