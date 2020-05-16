@@ -581,7 +581,7 @@ section.places {
   }
 
   .links a {
-    /* font-size: 10px; */
+    font-size: 10px;
   }
 
   .linkss {
@@ -1245,15 +1245,12 @@ body button {
   -webkit-user-select: none;
   -ms-user-select: none;
       user-select: none;
-<<<<<<< HEAD
-=======
 }
 
 .toSee-nav {
   -webkit-user-select: none;
   -ms-user-select: none;
       user-select: none;
->>>>>>> 031bd98e601b34a284a5be4e1b8abc9010cb5e1f
 }
 
 .toSee-header {
@@ -2004,54 +2001,6 @@ footer {
     font-size: 40px;
     text-align: center;
   }
-<<<<<<< HEAD
-
-  .footer {
-    font-size: 14px;
-  }
-
-  .busel-logo-footer {
-    width: 100px;
-    padding-top: 43px;
-    padding-bottom: 70px;
-  }
-
-  .quick-link {
-    font-size: 20px;
-  }
-
-  .resourses {
-    padding-top: 47px;
-    padding-right: 20px;
-    font-size: 15px;
-  }
-
-  .social-networks-i-footer {
-    font-size: 24px !important;
-    padding-right: 3px;
-    padding-bottom: 7px;
-  }
-
-  .social-networks-footer {
-    padding-right: 1px;
-  }
-
-  .quick-link-li {
-    padding-bottom: 5px;
-  }
-
-  .quick-link-ul-resourses {
-    padding-top: 36px;
-  }
-
-  .myFreedom-link {
-    font-size: 10px;
-  }
-
-  .social-networks-footer-a {
-    color: white;
-    text-decoration: none;
-  }
 }
 /* убираем синюю обводку при нажатии на кнопку */
 button:active, button:hover, button:focus {
@@ -2069,12 +2018,3 @@ button:active, button:hover, button:focus {
 }
 
 /* -----------END HEADER-------------  */
-/* -----------START MAIN-------------  */
-/* -----------END MAIN-------------  */
-/* -----------START FOOTER-------------  */
-/* -----------END FOOTER-------------  */
-/* -----------RESPONSIVE-------------  */
-/* --------------lg- responsive-------------------- */
-=======
-}
->>>>>>> 031bd98e601b34a284a5be4e1b8abc9010cb5e1f
