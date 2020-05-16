@@ -54,12 +54,10 @@ a.discover-link:hover {
 
 .numbers-block-main {
   position: relative;
-  width: 1440px;
-  height: 662px;
+  min-height: 662px;
   background: #000000;
 }
 .numbers-block-main .numbers-block-main__discover-word {
-  width: 1200px;
   padding-top: 100px;
 }
 .numbers-block-main .numbers-block-main__discover-word .numbers-block-main__discover-text {
@@ -458,13 +456,20 @@ section.places {
   }
 
   .lifehack-block .lifehack-item p {
-    width: auto;
     font-size: 14px;
-    text-align: left;
   }
 
   .lifehack-block .lifehack-item {
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .lifehacks .lifehack-block {
+    flex-direction: column;
   }
 
   .lifehacks .btn-center {
@@ -516,7 +521,7 @@ section.places {
   }
 
   .button-see-more-places {
-    padding-left: 50px !important;
+    padding-left: 50px;
   }
 
   .top-places-2 {
@@ -528,7 +533,7 @@ section.places {
   }
 
   .button-see-more-places-2 {
-    padding-left: 50px !important;
+    padding-left: 50px;
   }
 
   .slip-2-2 {
@@ -540,13 +545,13 @@ section.places {
   }
 
   .text-center p {
-    width: 400px;
+    width: 350px;
   }
 
   .lifehack-item p {
-    font-size: 10px !important;
-    width: 100px !important;
-    margin-left: 20px;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
   }
 
   .btn-center {
@@ -556,18 +561,18 @@ section.places {
   }
 
   .smth-info p {
-    font-size: 15px !important;
-    padding: 8px !important;
+    font-size: 15px;
+    padding: 8px;
   }
 
   .peshh {
-    font-size: 15px !important;
-    padding: 3px !important;
+    font-size: 15px;
+    padding: 3px;
   }
 
   .peshh span {
-    font-size: 15px !important;
-    padding: 3px !important;
+    font-size: 15px;
+    padding: 3px;
   }
 
   .networks i {
@@ -580,10 +585,13 @@ section.places {
     font-size: 17px;
   }
 
+<<<<<<< HEAD
   .links a {
     font-size: 10px;
   }
 
+=======
+>>>>>>> a849babce1db00b645313f8960ee5b0e6d16a550
   .linkss {
     margin-top: 150px;
     padding-right: 5px;
@@ -695,6 +703,59 @@ section.places {
     display: none !important;
   }
 }
+@media (max-width: 1040px) {
+  .numbers-block-main .numbers-block-main__discover-word {
+    transition: 0.3s;
+  }
+  .numbers-block-main .numbers-block-main__discover-word:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+  .numbers-block-main .numbers-block-main__discover-word .numbers-block-main__discover-text {
+    transition: 0.3s;
+    color: white;
+    text-align: center;
+    width: 800px;
+    font-size: 150px;
+  }
+  .numbers-block-main .numbers-block-main__discover-word .numbers-block-main__discover-text:hover {
+    transition: 0.3s;
+  }
+  .numbers-block-main .numbers-block-main__number-place-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    margin: 0 auto;
+  }
+  .numbers-block-main .numbers-block-main__number-place-block {
+    display: block;
+    position: static;
+  }
+
+  .main-attraction-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-attraction-container .main-attraction-block-main {
+    margin-top: 20px;
+  }
+
+  .to-eat-main__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-attraction-container .main-attraction-block-main .main-attraction-block-container-width {
+    opacity: 1;
+  }
+
+  .main-attraction-block-img {
+    opacity: 0.2;
+  }
+}
 @media (max-width: 840px) {
   .container {
     max-width: 580px;
@@ -756,6 +817,11 @@ section.places {
 button:active, button:hover, button:focus {
   outline: 0;
   outline-offset: 0;
+}
+
+.gradient-row-info {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.21%, #000000 101.5%);
+  min-height: 800px;
 }
 
 .find {
@@ -1099,9 +1165,13 @@ footer {
     height: 476px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 520px) {
+  .to-see {
+    max-width: 100%;
+  }
+
   .gradient-row-info {
-    min-height: 400px;
+    min-height: 550px;
   }
 
   .menu {
@@ -1935,6 +2005,10 @@ footer {
   }
 }
 @media (max-width: 520px) {
+  .beautiful1 {
+    font-size: 40px;
+  }
+
   .container {
     margin: 0 auto;
     max-width: 300px;
