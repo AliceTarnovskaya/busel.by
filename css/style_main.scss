@@ -253,7 +253,11 @@ a.discover-link {
           font-size: 16px;
           line-height: 20px;
           color: #ffffff;
-
+          transition: 0.3s;
+          &:hover{
+            transition: 0.3s;
+            color: #00b25c
+          }
           .main-attraction-block-inf-i {
             vertical-align: middle;
             font-size: 30px;
@@ -267,6 +271,11 @@ a.discover-link {
           font-size: 12px;
           line-height: 20px;
           color: #ffffff;
+          transition: 0.3s;
+          &:hover{
+            transition: 0.3s;
+            color: #00b25c
+          }
 
           .main-attraction-block-inf-i {
             vertical-align: middle;
@@ -397,6 +406,18 @@ a.discover-link {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
+  &:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+  }
+}
+
+.text-center-bottom{
+  &:hover{
+    transition: 0.3s;
+    transform: scale(1);
+  }
 }
 
 .lifehacks {
@@ -445,12 +466,26 @@ a.discover-link {
   width: 340px;
   display: flex;
   flex-direction: column;
+  transition: 0.5s;
+  p {
+    transition: 0.5s;
+  }
+  &:hover{
+    
+    transform: scale(1.1);
+    transition: 0.5s;
+    p {
+      color: #00B25C;
+      transition: 0.5s;
+    }
+  }
   /* height: 240px; */
   /* justify-content: space-between; */
   /* align-items: center; */
 }
 
 .lifehacks .lifehack-item img {
+  
   margin-bottom: 50px;
 }
 

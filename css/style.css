@@ -201,6 +201,11 @@ a.discover-link:hover {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  transition: 0.3s;
+}
+.main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-inf .main-attraction-block-inf-p:hover {
+  transition: 0.3s;
+  color: #00b25c;
 }
 .main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-inf .main-attraction-block-inf-p .main-attraction-block-inf-i {
   vertical-align: middle;
@@ -212,6 +217,11 @@ a.discover-link:hover {
   font-size: 12px;
   line-height: 20px;
   color: #ffffff;
+  transition: 0.3s;
+}
+.main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-inf .main-attraction-block-inf-p-inf:hover {
+  transition: 0.3s;
+  color: #00b25c;
 }
 .main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-inf .main-attraction-block-inf-p-inf .main-attraction-block-inf-i {
   vertical-align: middle;
@@ -320,6 +330,16 @@ a.discover-link:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
+}
+.text-center:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.text-center-bottom:hover {
+  transition: 0.3s;
+  transform: scale(1);
 }
 
 .lifehacks {
@@ -368,9 +388,21 @@ a.discover-link:hover {
   width: 340px;
   display: flex;
   flex-direction: column;
+  transition: 0.5s;
   /* height: 240px; */
   /* justify-content: space-between; */
   /* align-items: center; */
+}
+.lifehacks .lifehack-item p {
+  transition: 0.5s;
+}
+.lifehacks .lifehack-item:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.lifehacks .lifehack-item:hover p {
+  color: #00B25C;
+  transition: 0.5s;
 }
 
 .lifehacks .lifehack-item img {
@@ -1029,16 +1061,23 @@ h1, h2, h3, h4, h5, p {
   font-size: 10pt;
 }
 
-#heart {
-  z-index: 0;
-  position: absolute;
-  left: 625px;
-  bottom: 0;
-  top: 0;
-  height: 476px;
+.health {
+  position: static;
 }
 
-#card {
+.heart {
+  z-index: 0;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.health-flex {
+  position: relative;
+}
+
+.card {
+  background: transparent;
   z-index: 1;
   position: absolute;
   top: 14px;
@@ -1153,7 +1192,7 @@ footer {
     font-size: 20px;
   }
 
-  #card {
+  .card {
     z-index: 1;
     position: absolute;
     top: 14px;
@@ -1161,16 +1200,26 @@ footer {
     height: 393px;
   }
 
-  #heart {
+  .heart {
     z-index: 0;
     position: absolute;
-    left: 400px;
-    bottom: 0;
-    top: 0;
     height: 476px;
+    right: 0;
   }
 }
 @media (max-width: 520px) {
+  .h1-header-info {
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
+  .span-header-info {
+    font-size: 55px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+
   .to-see {
     max-width: 100%;
   }
@@ -1226,7 +1275,7 @@ footer {
     padding-bottom: 40px;
   }
 
-  #card {
+  .card {
     z-index: 1;
     position: absolute;
     top: 14px;
@@ -1234,13 +1283,11 @@ footer {
     height: 393px;
   }
 
-  #heart {
+  .heart {
     z-index: 0;
     position: absolute;
-    left: 174px;
-    bottom: 0;
-    top: 0;
     height: 476px;
+    right: 0;
   }
 
   .lh-subtitle {

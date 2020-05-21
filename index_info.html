@@ -4,70 +4,71 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
 		rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/svg" href="img/favicon.svg" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://kit.fontawesome.com/4d882c98ea.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<title>Busel | Info</title>
 </head>
 
 <body>
 	<header class="info-page-header">
-		<div class="gradient-header">
-			<div class="gradient-row-info">
-				<div class="container">
-					<div class="row toSee-nav">
-						<div class=" none-block">
-							<div id="clickblock" class="click-block">
-								<div id="but" class=" burger">
-									<span class="burger__line burger__line_first"></span>
-									<span class="burger__line burger__line_second"></span>
-									<span class="burger__line burger__line_third"></span>
+		
+			<div class="gradient-header">
+					<div class="gradient-row">
+						<div class="container">
+							<div class="row toSee-nav">
+								<div class="none-block">
+									<div id="clickblock" class="click-block">
+										<div id="but" class=" burger">
+											<span class="burger__line burger__line_first"></span>
+											<span class="burger__line burger__line_second"></span>
+											<span class="burger__line burger__line_third"></span>
+										</div>
+									</div>
+								</div>
+								<div id="b" class="busel-logo">
+									<ul class="submenu">
+										<li class="BUSEL"><a href="index.html"><img src="img/logo.png" alt="busel"></a></li>
+										<li><a class="nav-link" href="index_todo.html">To do</a></li>
+										<li><a class="nav-link" href="index_toSee.html">To see</a></li>
+										<li><a class="nav-link" href="#">To eat</a></li>
+										<li><a class="nav-link" href="/index_info.html">Info</a></li>
+										<li><a class="nav-link" href="#">Mini-guides</a></li>
+									</ul>
+								</div>
+		
+								<div class=" langue-header">
+									<ul class="lang-menu">
+										<li><a class="nav-link" href="#">en</a></li>
+										<li><a class="nav-link" href="#">ru</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="header-title-networks-container">
+								<div class="header-title-container">
+									<h1 class=" h1-header-info">Find useful and necessary</h1><span class=" span-header-info">Information</span>
+								</div>
+								<div class="header-networks-container">
+									<ul class="social_networks">
+										<li class="social-networks"><a class="header-social-networks-a" href="#"><i
+													class="fab fa-instagram fa-2x social-networks-i"></i></a></li>
+										<li class="social-networks social-networks-header"><a class="header-social-networks-a"
+												href="#"><i class="fab fa-facebook-f fa-2x social-networks-i"></i></a></li>
+										<li class="social-networks social-networks-header"><a class="header-social-networks-a"
+												href="#"><i class="fab fa-twitter fa-2x social-networks-i"></i></a></li>
+										<li class="social-networks social-networks-header"><a class="header-social-networks-a"
+												href="#"><i class="fab fa-vk fa-2x social-networks-i"></i></a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
-						<div id="b" class=" busel-logo">
-							<ul class="submenu">
-								<li class="BUSEL"><a href="#"><img src="img/logo.png" alt="busel"></a></li>
-								<li><a class="nav-link" href="#">To do</a></li>
-								<li><a class="nav-link" href="#">To see</a></li>
-								<li><a class="nav-link" href="#">To eat</a></li>
-								<li><a class="nav-link" href="#">Info</a></li>
-								<li><a class="nav-link" href="#">Mini-guides</a></li>
-
-							</ul>
-						</div>
-						<div class=" langue-header">
-							<ul class="lang-menu">
-								<li><a class="nav-link" href="#">en</a></li>
-								<li><a class="nav-link" href="#">ru</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="header-title-networks-container">
-						<div class="header-title-container">
-							<h1 class="h1-header-info">Find useful and necessary</h1><span
-								class="span-header-info">Information</span>
-						</div>
-						<div class="header-networks-container">
-							<ul class="social_networks">
-								<li class="social-networks"><a class="header-social-networks-a" href="#"><i
-											class="fab fa-instagram fa-2x social-networks-i"></i></a></li>
-								<li class="social-networks social-networks-header"><a class="header-social-networks-a"
-										href="#"><i class="fab fa-facebook-f fa-2x social-networks-i"></i></a></li>
-								<li class="social-networks social-networks-header"><a class="header-social-networks-a"
-										href="#"><i class="fab fa-twitter fa-2x social-networks-i"></i></a></li>
-								<li class="social-networks social-networks-header"><a class="header-social-networks-a"
-										href="#"><i class="fab fa-vk fa-2x social-networks-i"></i></a></li>
-							</ul>
-						</div>
 					</div>
 				</div>
-			</div>
-		</div>
 	</header>
 	<main class="info-main">
 		<div class="container">
@@ -95,8 +96,8 @@
 				<div class="row health-flex">
 					<div class="health col-sm-7">
 						<h3 class="info">Health care</h3>
-						<hr />
-						<img draggable="false" src="img/info_page/heart.svg" id="heart">
+						<hr/>
+						<img class="heart" src="img/info_page/heart.svg">
 						<p> If you become ill during your stay in the Republic of Belarus, contact your embassy or local
 							consular department. </p>
 						<p> If you need emergency medical care, call 103. Emergency medical care is free. </p>
@@ -110,8 +111,8 @@
 				<div class="row taxfree-flex">
 					<div class="taxfree col-sm-7">
 						<h3 class="info">TAX-FREE</h3>
-						<hr />
-						<img draggable="false" src="img/info_page/card.svg" id="card">
+						<hr/>
+						<img class="card" src="img/info_page/card.svg">
 						<p>
 							The Tax Free system in Belarus has been available for more than 3 years and is actively
 							popular
@@ -137,7 +138,7 @@
 				</div>
 				<div class="row lh-body">
 					<div class="col-sm-4 lh-col">
-						<img draggable="false" src="img/info_page/bus.svg">
+						<img src="img/info_page/bus.svg">
 						<p class="lh-text">
 							You can track the movement of the public transport in applications such as <a
 								class="underline" href="#">Yandex.Maps</a> or <a class="underline" href="#">Minsk
@@ -145,14 +146,14 @@
 						</p>
 					</div>
 					<div class="col-sm-4 lh-col">
-						<img draggable="false" src="img/info_page/food.svg">
+						<img src="img/info_page/food.svg">
 						<p class="lh-text">
 							In Belarus there is a grocery delivery store<a class="underline" href="#">
 								e-dostavka.by</a>. Delivery is valid only in Minsk area.
 						</p>
 					</div>
 					<div class="col-sm-4 lh-col">
-						<img draggable="false" src="img/info_page/vine.svg">
+						<img src="img/info_page/vine.svg">
 						<p class="lh-text">
 							If you want to save on food, we recommend to visit places that participate in the disaster.
 							More info on <a class="underline" href="#">gastrofest.by </a>
@@ -221,81 +222,8 @@
 			</div>
 		</div>
 	</footer>
-	<!-- 
-	<footer>
-		<div class="container">
-			<div class="footer-flex row">
-				<div class="busel-footer col-5">
-					<div class="busel-img">
-						<img src="img/logo.png" alt="logo">
-					</div>
-					<p class="footer-text-1">Would you like a free consultation?<br>Perhaps your existing.</p>
-					<p class="footer-text-2">Write us today <span class="hello-green">hello@myfreedom.by</span></p>
-					<ul class="social-footer ">
-						<li>
-							<a href="#"><i class="fab fa-instagram"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-facebook-f"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-twitter"></i></a>
-						</li>
-						<li>
-							<a href="#"><i class="fab fa-vk"></i></a>
-						</li>
-					</ul>
-				</div>
-				<ul class="menu-footer col-4">
-					<p>Quick Links</p>
-					<li>
-						<a href="#">Home</a>
-					</li>
-					<li>
-						<a href="#">Places to eat</a>
-					</li>
-					<li>
-						<a href="#">Places to do</a>
-					</li>
-					<li>
-						<a href="/index_toSee.html">Places to see</a>
-					</li>
-					<li>
-						<a href="#">Mini-guides</a>
-					</li>
-					<li>
-						<a href="#">Info</a>
-					</li>
-					<li>
-						<a href="#">Faq</a>
-					</li>
-				</ul>
-				<ul class="Resourses-footer col-3">
-					<p>Resourses</p>
-					<li>
-						<a href="#">Support</a>
-					</li>
-					<li>
-						<a href="#">Our team</a>
-					</li>
-					<li>
-						<a href="#">Term & Condition</a>
-					</li>
-					<li>
-						<a href="#">Safety & Security</a>
-					</li>
-					<li>
-						<a href="#">Contact us</a>
-					</li>
-				</ul>
-			</div>
-			<div class="copyright">
-				<p>Ъ_Ь team © Copyright 2020. All rights reserved </p>
-			</div>
-		</div>
-	</footer> -->
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -303,7 +231,8 @@
 	</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-	</script>
+	</script> -->
+    <script src="https://kit.fontawesome.com/4d882c98ea.js" crossorigin="anonymous"></script>
 	<script src="js/burger.js"></script>
 </body>
 

@@ -242,17 +242,26 @@ h1, h2, h3, h4, h5, p {
   margin: 0 2% !important;
   font-size: 10pt;
 }
-
-#heart {
+.health{
+  position: static;
+}
+.heart {
+  // display: none;
   z-index: 0;
   position: absolute;
-  left: 625px;
-  bottom: 0;
-  top: 0;
-  height: 476px;
+  // left: 470px;
+  // bottom: 0;
+  top: 100px;
+  // height: 476px;
+  // max-width: 300px;
+  right: 0;
+  // transform: scale(2);
 }
-
-#card {
+.health-flex{
+  position: relative;
+}
+.card {
+  background: transparent;
   z-index: 1;
   position: absolute;
   top: 14px;
@@ -364,7 +373,7 @@ footer {
     font-size: 20px;
   }
 
-  #card {
+  .card {
     z-index: 1;
     position: absolute;
     top: 14px;
@@ -372,35 +381,31 @@ footer {
     height: 393px;
   }
 
-  #heart {
+  .heart {
     z-index: 0;
     position: absolute;
-    left: 400px;
-    bottom: 0;
-    top: 0;
     height: 476px;
+    right: 0;
+
   }
 }
 @media (max-width: 520px) {
+  .h1-header-info{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+  .span-header-info{
+    font-size: 55px;
+    font-weight: 700;
+    color: #FFFFFF;
+  }
   .to-see{
     max-width: 100%;
   }
   .gradient-row-info{
     min-height: 550px;
   }
-  // .first-li{
-  //   display: none;
-  // }
-  // .mob-menu{
-  //   margin-bottom: 200px;
-  // }
-  
-  // .find {
-  //   font-size: 20px;
-  // }
-  // .inf{
-  //   font-size: 40px;
-  // }
   .menu {
     display: none;
     position: absolute;
@@ -416,9 +421,6 @@ footer {
     align-items: center;
   }
 
-  // .busel-mobile {
-  //   display: block;
-  // }
   .none-block-info{
     display: none;
   }
@@ -454,7 +456,7 @@ footer {
     padding-bottom: 40px;
   }
 
-  #card {
+  .card {
     z-index: 1;
     position: absolute;
     top: 14px;
@@ -462,13 +464,14 @@ footer {
     height: 393px;
   }
 
-  #heart {
+  .heart {
     z-index: 0;
     position: absolute;
-    left: 174px;
-    bottom: 0;
-    top: 0;
+    // left: 174px;
+    // bottom: 0;
+    // top: 0;
     height: 476px;
+    right: 0;
   }
 
   .lh-subtitle {
