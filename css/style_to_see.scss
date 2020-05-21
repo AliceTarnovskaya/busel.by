@@ -39,9 +39,6 @@ body {
   }
 }
 
-// p{
-//   margin-bottom: 0;
-// }
 .toSee-nav {
   -webkit-user-select: none;
   user-select: none;
@@ -51,16 +48,20 @@ body {
   @include background-header(url(../img/to_see_page/header-to-see.png), cover, color-burn);
 }
 
-
 .gradient-row {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.21%, #000000 101.5%);
   min-height: 800px;
+}
+
+.none-block {
+  display: none;
 }
 
 .toSee-nav {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  flex-wrap: nowrap;
 }
 
 .submenu,
@@ -114,43 +115,58 @@ body {
   border: 0.5px solid #FFFFFF;
 }
 
-.main-header {
+.header-title-networks-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  min-height: 350px;
+  height: 450px;
+
+  .header-title-container {
+    display: flex;
+    flex-direction: column;
+
+    .h1-header {
+      font-size: 40px;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+
+    .span-header {
+      font-size: 80px;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+  }
+
+  .header-networks-container {
+    .social_networks {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 250px;
+
+      li {
+        list-style: none;
+      }
+
+      a {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+
+      .social-networks-i {
+        color: white;
+        transition-duration: 0.3s;
+      }
+
+      .social-networks-i:hover {
+        color: #00B25C;
+        transition-duration: 0.3s;
+      }
+    }
+  }
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: 700;
-}
-
-h1 span {
-  font-size: 80px;
-  display: block;
-}
-
-.vk-inst-fb-twt {
-  align-self: flex-end;
-}
-
-.social_networks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.social-networks {
-  font-size: 14px;
-  list-style: none;
-  margin-bottom: 30px;
-}
-
-.header-social-networks-a {
-  text-decoration: none;
-  color: white;
-}
 
 main {
   background: #000000;
@@ -177,7 +193,6 @@ main {
 }
 
 .attraction-content {
-  /* height: 1200px; */
   display: flex;
   flex-direction: row;
 }
@@ -195,9 +210,7 @@ main {
   position: relative;
   background: #000000;
   margin-right: 20px;
-  /* margin-top: 200px; */
   width: 344px;
-  /* height: 282px; */
   margin-top: 22px;
 }
 
@@ -208,10 +221,7 @@ main {
 .upper-city {
   position: relative;
   background: #000000;
-  /* margin-top: 200px; */
-  width: 344px;
   height: 440px;
-  /* margin-bottom: 80px; */
 }
 
 .upper-city-img {
@@ -224,7 +234,6 @@ main {
   opacity: 0.2;
   transition-duration: 0.5s;
   transition-property: all;
-  /* box-shadow: 0px 0px 30px 10px white; */
 }
 
 .attraction-block p,
@@ -311,16 +320,7 @@ main {
   color: #FFFFFF;
 }
 
-.social-networks-i {
-  color: white;
-  transition-duration: 0.5s;
-  /* padding: 20px; */
-}
 
-.social-networks-i:hover {
-  color: #00B25C;
-  transition-duration: 0.3s;
-}
 
 footer {
   background: url(../img/footer-bg.png);
@@ -334,7 +334,6 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-bottom: 130px;
-  // padding-top: 236px;
 }
 
 .busel-logo-footer {
@@ -347,19 +346,26 @@ footer {
 
 .myFreedom-link {
   color: #00B25C;
-  /* text-decoration: none; */
 }
 
 .myFreedom-link:hover {
   color: #00B25C;
-  /* text-decoration: none; */
 }
 
 .social-networks-footer-ul {
   padding-top: 53px;
 
 }
-
+.social-networks-footer-ul a{
+  transition-duration: 0.3s;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.social-networks-footer-ul a:hover {
+  transition-duration: 0.3s;
+  color: #00B25C;
+  text-decoration: none;
+}
 .social-networks-footer {
   display: inline;
   list-style: none;
@@ -384,8 +390,6 @@ footer {
 
 .quick-link-a:hover {
   color: #FFFFFF;
-  /* text-decoration: none; */
-  // box-shadow: 0px 0px 10px 0px white;
 }
 
 .links {
@@ -398,26 +402,7 @@ footer {
   margin-bottom: 0;
 }
 
-.none-block {
-  display: none;
-  position: absolute;
-}
 
-.text-840px {
-  display: none;
-}
-
-.images-840px {
-  display: none;
-}
-
-.text-1040px {
-  display: none;
-}
-
-.images-1040px {
-  display: none;
-}
 
 @media (max-width: 1040px) {
   .container {
@@ -431,19 +416,16 @@ footer {
 
   .attraction-block {
     margin-right: 0px;
-    /* margin-top: 200px; */
     width: 344px;
     height: 282px;
     margin-top: 22px;
   }
 
   .attraction-content {
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
   }
 
   .upper-city-img {
@@ -463,16 +445,6 @@ footer {
   .nav-link:hover {
     padding: 3px 18px;
     font-size: 13px;
-  }
-
-  h1 {
-    font-size: 30px;
-    font-weight: 700;
-  }
-
-  h1 span {
-    font-size: 60px;
-    display: block;
   }
 
   .text-img {
@@ -550,26 +522,22 @@ footer {
 
   .busel-logo {
     display: none;
-    /* transition-duration: 0.5s; */
-    /* position: relative; */
   }
-
+  .toSee-nav{
+    position: relative;
+  }
   .submenu {
     display: flex;
     flex-direction: row;
     position: absolute;
+    left: 0;
+    top: 90px;
+    right: 23;
     margin-left: 40px;
   }
 
   .BUSEL {
     display: none;
-  }
-
-  /* .submenu:first-child{
-            display: none;
-        }  */
-  .langue-header {
-    padding-left: 450px;
   }
 
   .none-block {
@@ -583,44 +551,61 @@ footer {
     max-width: 500px;
   }
 
+  .header-title-networks-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+  
+    .header-title-container {
+      display: flex;
+      flex-direction: column;
+      .h1-header {
+        font-size: 40px;
+        font-weight: 700;
+        color: #FFFFFF;
+      }
+  
+      .span-header {
+        font-size: 80px;
+        font-weight: 700;
+        color: #FFFFFF;
+      }
+    }
+  
+    .header-networks-container {
+      .social_networks {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 250px;
+  
+        li {
+          list-style: none;
+        }
+  
+        a {
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+  
+        .social-networks-i {
+          color: white;
+          transition-duration: 0.3s;
+          /* padding: 20px; */
+        }
+  
+        .social-networks-i:hover {
+          color: #00B25C;
+          transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+
   .nav-link-langue {
     padding: 1px 5px;
     /* padding: 2px 6px; */
-  }
-
-  .to-see {
-    /* padding-left: 60px */
-    text-align: center;
-    max-width: 100%;
-    /* display: flex;
-          justify-content: center;
-          align-items: center; */
-  }
-
-  h1 {
-    // /* display: flex;
-    //     justify-content: center; */
-    // font-size: 30px;
-    // font-weight: 700;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 700;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-  }
-
-  h1 span {
-    font-size: 60px;
-    display: block;
-  }
-
-  .vk-inst-fb-twt {
-    align-self: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 
   .text-img {
@@ -680,37 +665,6 @@ footer {
     text-align: center;
   }
 
-  .main-header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .social_networks {
-    padding-top: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* align-items: center; */
-  }
-
-  .social-networks-header {
-    /* display: inline; */
-    padding-left: 40px;
-  }
-
-  .motto1 {
-    /* padding: 140px 40px 40px 40px; */
-    display: inline-block;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .motto2 {
-    display: inline-block;
-    font-size: 40px;
-    text-align: center;
-  }
-
   footer p,
   footer a {
     line-height: 2;
@@ -748,36 +702,25 @@ footer {
     padding-bottom: 25px;
   }
 
-  // .quick-link-ul{
-  //   text-align: center;
-  // }
-
 }
 
 @media (max-width: 520px) {
   .beautiful1 {
-    // margin-top: 100px;
     font-size: 40px;
-    // font-weight: bold;
   }
 
   .container {
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 340px;
   }
 
   .header {
     justify-content: baseline;
   }
-
-  .langue-header {
-    padding-left: 260px;
-  }
-
   .submenu {
     flex-direction: row;
-    margin-left: 0px;
-    margin-top: 60px;
+    margin-left: 20px;
+    // margin-top: 60px;
   }
 
   .submenu .nav-link {
@@ -790,10 +733,61 @@ footer {
     font-size: 13px;
   }
 
-  .main-header {
-    margin-top: 50px;
+  .header-title-networks-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+  
+    .header-title-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      .h1-header {
+        font-size: 40px;
+        font-weight: 700;
+        color: #FFFFFF;
+      }
+  
+      .span-header {
+        font-size: 80px;
+        font-weight: 700;
+        color: #FFFFFF;
+      }
+    }
+  
+    .header-networks-container {
+      margin-top: 50px;
+      .social_networks {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 200px;
+  
+        li {
+          list-style: none;
+        }
+  
+        a {
+          color: #FFFFFF;
+          text-decoration: none;
+        }
+  
+        .social-networks-i {
+          color: white;
+          transition-duration: 0.3s;
+          /* padding: 20px; */
+        }
+  
+        .social-networks-i:hover {
+          color: #00B25C;
+          transition-duration: 0.3s;
+        }
+      }
+    }
   }
-
   .nav-link {
     padding: 1.5px 6px;
     font-size: 12px;
@@ -803,30 +797,5 @@ footer {
     padding: 1.5px 6px;
     font-size: 12px;
   }
-
-  h1 {
-    margin-top: 50px;
-    font-size: 25px;
-    font-weight: 700;
-  }
-
-  h1 span {
-    font-size: 40px;
-    display: block;
-  }
-
-  .motto1 {
-    /* padding: 140px 40px 40px 40px; */
-    display: inline-block;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .motto2 {
-    display: inline-block;
-    font-size: 40px;
-    text-align: center;
-  }
-
 
 }

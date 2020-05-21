@@ -1,0 +1,28 @@
+
+/* To Eat Page */
+
+
+/* -----------START HEADER-------------  */
+
+.toeat-page-header {
+    @include background-header(url(../img/to_eat_page/203281.png), cover, color-burn);
+}
+
+/* -----------END HEADER-------------  */
+.to-eat-main .to-eat-main__text .to-eat-page-h1{
+    width: 800px;
+}
+.to-eat-main .to-eat-main__text .to-eat-page-h2{
+    width: 580px;
+}
+.main-attraction-container1{
+    padding-bottom: 20px;
+}
+@media(max-width: 480px){
+    .to-eat-main .to-eat-main__text .to-eat-page-h1{
+        width: 300px;
+    }
+    .to-eat-main .to-eat-main__text .to-eat-page-h2{
+        width: 280px;
+    }
+}

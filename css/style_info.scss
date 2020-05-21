@@ -17,6 +17,16 @@ button:active, button:hover, button:focus {
   }
 
 
+.h1-header-info{
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.span-header-info{
+  font-size: 80px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
 .gradient-row-info{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.21%, #000000 101.5%);
   min-height: 800px;
@@ -344,6 +354,12 @@ footer {
   }
 }
 @media (max-width: 840px) {
+  .h1-header-info{
+    font-size: 25px;
+  }
+    .span-header-info{
+      font-size: 60px;
+    }
   .health, .taxfree {
     font-size: 20px;
   }
