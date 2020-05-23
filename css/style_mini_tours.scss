@@ -1,0 +1,620 @@
+/* Mini Tours page */
+
+
+/* -----------START HEADER-------------  */
+
+.mini-tours-page-header {
+	@include background-header(url(../img/miniTours_page/74271.png), cover, color-burn);
+}
+
+/* -----------END HEADER-------------  */
+body {
+	background: black;
+}
+
+.to-eat-main-mini-guides {
+	padding-top: 100px;
+}
+
+.main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-text-mini-tours {
+	margin: 0;
+	height: 300px;
+
+	.main-attraction-block-h1 {
+		font-size: 29px;
+	}
+}
+
+.to-eat-main .to-do-main__text {
+	align-items: flex-start;
+	text-align: left;
+
+	.to-eat-main__h1 {
+		width: 630px;
+	}
+
+	.to-eat-main__h2 {
+		width: 570px;
+	}
+}
+
+.main-attraction-container .main-attraction-block-main {
+	height: 100%;
+}
+
+.main-attraction-container .main-attraction-block-main .main-attraction-block-img-miniTours {
+	height: 400px;
+	width: 400px;
+}
+
+.main-attraction-container {
+	padding-bottom: 0;
+}
+
+.vectora i {
+	font-size: 30px;
+	color: white;
+	margin: 0 0 30px 0;
+}
+
+.vectora i:hover {
+	color: #00B25C;
+
+}
+
+.vectora {
+	margin: 182px 0 0 0;
+	text-align: right;
+
+}
+
+.iconsflex {
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 200px 0;
+}
+
+.space {
+	padding: 0 0 0 219px;
+}
+
+.minitoursinfo p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 24px;
+	color: white;
+}
+
+h3 span {
+	color: #00B25C;
+}
+
+h3 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 61px;
+	color: white;
+}
+
+.blackbg {
+	background: black;
+}
+
+.minitoursinfo {
+	padding: 90px 0 127px 0;
+}
+
+.tours {
+	display: flex;
+	margin: 0 0 105px 0;
+}
+
+.minitours {
+	width: 400px;
+	height: 470px;
+	margin: 0 20px 0 0;
+	position: relative;
+}
+
+.minitours:hover {
+	background: rgba (0, 0, 0, 0.3);
+}
+
+.bg-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.bg-opacity .bg-img {
+	transition-duration: 1s;
+	transition-property: all;
+}
+
+.bg-opacity:hover .bg-img {
+	/* position: absolute; */
+	opacity: 0.2;
+	transition-duration: 1s;
+	transition-property: all;
+}
+
+.opacity .heart {
+	opacity: 0;
+	/* height: 470px; */
+	transition-duration: 1s;
+	transition-property: all;
+}
+
+.opacity p {
+	opacity: 0;
+	transition-duration: 1s;
+	transition-property: all;
+}
+
+.bg-opacity:hover .heart {
+	opacity: 1;
+	transition: 0.4s;
+	transition-duration: 1s;
+	transition-property: all;
+}
+
+.opacity:not(:hover) {
+	transition: 0.4s;
+	transition-duration: 1s;
+	transition-property: all;
+}
+
+.bg-opacity:hover p {
+	opacity: 1;
+	transition: 0.4s;
+	transition-duration: 1s;
+	transition-property: all;
+}
+
+.block-mini {
+	user-select: none;
+}
+
+.mini-guide-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	// align-items: center;
+	max-width: 1240px;
+	// -height: 801px;
+	border: 1px solid #FFFFFF;
+	margin-top: 100px;
+	padding: 80px 50px;
+}
+
+.mini-guide-container2 {
+	display: flex;
+	display: none;
+}
+
+.mini-guide-container3 {
+	display: flex;
+	display: none;
+}
+
+.mini-guide-block1 {
+	// height: 600px;
+	display: flex;
+	flex-direction: column;
+
+	// align-items: center;
+	// justify-content: space-between;
+}
+
+.gastronomic-h1 {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 59px;
+}
+
+.gastronomic-h2 {
+	padding-top: 45px;
+	width: 547px;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+
+
+}
+
+.duration-p {
+	padding-top: 45px;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+
+	span {
+		font-weight: normal;
+	}
+}
+
+.restorants-container {
+	margin-top: 60px;
+}
+
+.restorants-block {
+	padding-bottom: 45px;
+
+	a {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 29px;
+		text-decoration-line: underline;
+		color: #FFFFFF;
+		transition: 0.3s;
+		&:hover{
+			color: #00B25C;
+			transition: 0.3s;
+		}
+	}
+
+	i {
+		font-size: 30px;
+		color: #FFFFFF;
+		padding-right: 30px;
+		vertical-align: middle;
+	}
+}
+
+.buttons-conatiner {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+}
+
+.buttons-block {
+
+	button {
+		padding: 12px 33px;
+		background: transparent;
+		border: 1px solid #00B25C;
+		border-radius: 35px;
+		transition: 0.3s;
+
+		&:hover {
+			background: #00B25C;
+			transition: 0.3s;
+		}
+
+		a {
+			color: #FFFFFF;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+.left-i, .right-i{
+	display: none;
+	color: #FFFFFF;
+	font-size: 50px;
+}
+
+
+@media (max-width: 1040px) {
+	.to-eat-main__attraction-container {
+		display: none;
+	}
+
+	.to-eat-main .to-do-main__text {
+		align-items: center;
+		text-align: center;
+
+		.to-eat-main__h1 {
+			width: 630px;
+		}
+
+		.to-eat-main__h2 {
+			width: 570px;
+		}
+	}
+
+	.mini-guide-block-img {
+		display: none;
+	}
+
+	.mini-guide-block1 {
+		text-align: center;
+	}
+
+	.gastronomic-h2 {
+		max-width: 400px;
+
+	}
+
+	
+	.left-i {
+		display: block;
+		padding: 10px 30px ;
+		position: absolute;
+		top: 470px;
+		left: 5px;
+		transition: 0.3s;
+		&:hover{
+			transform: scale(1.5);
+			transition: 0.3s;
+		}
+	}
+	.right-i{
+		display: block;
+		padding: 10px 30px;
+		position: absolute;
+		top: 470px;
+		right: 5px;
+		transition: 0.3s;
+		&:hover{
+			transform: scale(1.5);
+			transition: 0.3s;
+		}
+	}
+	.mini-guide-container2 {
+		display: flex;
+		// display: none;
+	}
+	
+	.mini-guide-container3 {
+		display: flex;
+		// display: none;
+	}
+
+}
+
+@media (max-width: 840px) {
+
+	.mini-guide-container2 {
+		display: flex;
+		// display: none;
+	}
+	
+	.mini-guide-container3 {
+		display: flex;
+		// display: none;
+	}
+
+	// .buttontwo button {
+	// 	margin: 0;
+	// 	margin-left: 10px;
+	// 	width: 100%;
+	// 	height: 100%;
+	// }
+
+	// .tours {
+	// 	display: none;
+	// }
+
+	// .toursinfo {
+	// 	margin: 0;
+	// 	padding-bottom: 40px;
+	// 	margin-bottom: 80px;
+	// }
+
+	// .pict {
+	// 	display: flex;
+	// 	justify-content: center;
+	// }
+
+	// .pict img {
+	// 	display: none;
+	// 	// margin: 0 auto;
+	// 	margin-bottom: 40px;
+	// 	// padding-left: 80px;
+	// 	padding-top: 0;
+	// 	// width: 350px;
+	// }
+}
+
+@media (max-width: 480px) {
+	.to-eat-main .to-do-main__text .to-eat-main__h1-mini{
+		width: 300px;
+	}
+	.to-eat-main .to-do-main__text .to-eat-main__h2-mini{
+		width: 340px;
+	}
+	.mini-guide-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		// align-items: center;
+		max-width: 1240px;
+		// -height: 801px;
+		border: 1px solid #FFFFFF;
+		margin-top: 100px;
+		padding: 0px;
+	}
+	.gastronomic-h1 {
+		font-weight: bold;
+		font-size: 35px;
+		width: 310px;
+		line-height: 59px;
+	}
+	
+	.gastronomic-h2 {
+		padding-top: 45px;
+		width: 100%;
+		font-weight: normal;
+		font-size: 19px;
+		width: 310px;
+		line-height: 29px;
+	
+	
+	}
+	
+	.duration-p {
+		padding-top: 45px;
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 37px;
+		width: 310px;
+		span {
+			font-weight: normal;
+		}
+	}
+	
+	.restorants-container {
+		margin-top: 60px;
+		width: 310px;
+	}
+	
+	.restorants-block {
+		padding-bottom: 45px;
+	
+		a {
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 29px;
+			text-decoration-line: underline;
+			color: #FFFFFF;
+		}
+	
+		i {
+			font-size: 30px;
+			color: #FFFFFF;
+			padding-right: 30px;
+			vertical-align: middle;
+		}
+	}
+	
+	.buttons-conatiner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		.button-maps-mini{
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+	}
+	.mini-guide-container2 {
+		display: flex;
+		// display: none;
+	}
+	
+	.mini-guide-container3 {
+		display: flex;
+		// display: none;
+	}
+	// .buttons-block {
+	
+	// 	button {
+	// 		padding: 12px 33px;
+	// 		background: transparent;
+	// 		border: 1px solid #00B25C;
+	// 		border-radius: 35px;
+	// 		transition: 0.3s;
+	
+	// 		&:hover {
+	// 			background: #00B25C;
+	// 			transition: 0.3s;
+	// 		}
+	
+	// 		a {
+	// 			color: #FFFFFF;
+	
+	// 			&:hover {
+	// 				text-decoration: none;
+	// 			}
+	// 		}
+	// 	}
+	// }
+	// .pict {
+	// 	display: none;
+	// }
+
+	// .pict-1 {
+	// 	display: block;
+	// }
+
+	// .pict-1 img {
+	// 	padding-left: 50px;
+	// 	width: 368px;
+	// }
+
+	// .none-block {
+	// 	display: block;
+	// }
+
+	// .submenu {
+	// 	display: none;
+	// }
+
+	// .lang-menu {
+	// 	display: none;
+	// }
+
+	// .busel-menu {
+	// 	padding-top: 20px;
+	// }
+
+	// .click-block a i {
+	// 	padding-top: 10px;
+	// 	font-size: 30px;
+	// 	color: white;
+	// }
+
+	// .main-header {
+	// 	padding-top: 200px;
+	// }
+
+	// .vk-inst-fb-twt {
+	// 	margin-right: 20px;
+	// 	padding-bottom: 20px;
+	// }
+
+	// .maininfo p {
+	// 	margin: 0 auto;
+	// 	padding: 30px 45px 20px 30px;
+	// }
+
+	// .maininfo h1 {
+	// 	margin-bottom: 30px;
+	// 	font-size: 35px;
+	// 	margin: 51px 0 50px 50px
+	// }
+
+	// .buttons {
+	// 	display: flex;
+	// 	margin: 50px 0 0 0px;
+	// }
+
+	// .buttontwo button {
+	// 	margin: 0px 0 91px 14px;
+	// }
+
+	// .quick-link-ul li {
+	// 	font-size: 10px;
+	// }
+
+	// .links p {
+	// 	font-size: 18px;
+	// }
+
+	// .links {
+	// 	margin-left: 0;
+	// }
+
+	// .text1-footer {
+	// 	font-size: 12px;
+	// }
+
+	// .myFreedom-link-before {
+	// 	font-size: 12px;
+	// }
+
+	// .myFreedom-link {
+	// 	font-size: 12px;
+	// }
+
+	// .social-networks-footer-ul li a i {
+	// 	font-size: 30px;
+	// }
+}

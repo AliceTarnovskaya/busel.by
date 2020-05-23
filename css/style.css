@@ -271,6 +271,7 @@ a.discover-link:hover {
   padding-bottom: 136px;
 }
 .main-attraction-block-button-places-chek .main-attraction-block-button-places-chek-button {
+  margin-top: 40px;
   padding: 12px 60px;
   background: transparent;
   border: 1px solid #FFFFFF;
@@ -2168,5 +2169,449 @@ button:active, button:hover, button:focus {
 
   .to-eat-main .to-eat-main__text .to-eat-page-h2 {
     width: 280px;
+  }
+}
+/* Mini Tours page */
+/* -----------START HEADER-------------  */
+.mini-tours-page-header {
+  background: url(../img/miniTours_page/74271.png), linear-gradient(180deg, #000000 -7%, rgba(0, 0, 0, 0) 39.06%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+/* -----------END HEADER-------------  */
+body {
+  background: black;
+}
+
+.to-eat-main-mini-guides {
+  padding-top: 100px;
+}
+
+.main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-text-mini-tours {
+  margin: 0;
+  height: 300px;
+}
+.main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-text-mini-tours .main-attraction-block-h1 {
+  font-size: 29px;
+}
+
+.to-eat-main .to-do-main__text {
+  align-items: flex-start;
+  text-align: left;
+}
+.to-eat-main .to-do-main__text .to-eat-main__h1 {
+  width: 630px;
+}
+.to-eat-main .to-do-main__text .to-eat-main__h2 {
+  width: 570px;
+}
+
+.main-attraction-container .main-attraction-block-main {
+  height: 100%;
+}
+
+.main-attraction-container .main-attraction-block-main .main-attraction-block-img-miniTours {
+  height: 400px;
+  width: 400px;
+}
+
+.main-attraction-container {
+  padding-bottom: 0;
+}
+
+.vectora i {
+  font-size: 30px;
+  color: white;
+  margin: 0 0 30px 0;
+}
+
+.vectora i:hover {
+  color: #00B25C;
+}
+
+.vectora {
+  margin: 182px 0 0 0;
+  text-align: right;
+}
+
+.iconsflex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 200px 0;
+}
+
+.space {
+  padding: 0 0 0 219px;
+}
+
+.minitoursinfo p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+h3 span {
+  color: #00B25C;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 61px;
+  color: white;
+}
+
+.blackbg {
+  background: black;
+}
+
+.minitoursinfo {
+  padding: 90px 0 127px 0;
+}
+
+.tours {
+  display: flex;
+  margin: 0 0 105px 0;
+}
+
+.minitours {
+  width: 400px;
+  height: 470px;
+  margin: 0 20px 0 0;
+  position: relative;
+}
+
+.minitours:hover {
+  background: rgba 0, 0, 0, 0.3;
+}
+
+.bg-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-opacity .bg-img {
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.bg-opacity:hover .bg-img {
+  /* position: absolute; */
+  opacity: 0.2;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.opacity .heart {
+  opacity: 0;
+  /* height: 470px; */
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.opacity p {
+  opacity: 0;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.bg-opacity:hover .heart {
+  opacity: 1;
+  transition: 0.4s;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.opacity:not(:hover) {
+  transition: 0.4s;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.bg-opacity:hover p {
+  opacity: 1;
+  transition: 0.4s;
+  transition-duration: 1s;
+  transition-property: all;
+}
+
+.block-mini {
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.mini-guide-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1240px;
+  border: 1px solid #FFFFFF;
+  margin-top: 100px;
+  padding: 80px 50px;
+}
+
+.mini-guide-container2 {
+  display: flex;
+  display: none;
+}
+
+.mini-guide-container3 {
+  display: flex;
+  display: none;
+}
+
+.mini-guide-block1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.gastronomic-h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.gastronomic-h2 {
+  padding-top: 45px;
+  width: 547px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.duration-p {
+  padding-top: 45px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+.duration-p span {
+  font-weight: normal;
+}
+
+.restorants-container {
+  margin-top: 60px;
+}
+
+.restorants-block {
+  padding-bottom: 45px;
+}
+.restorants-block a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+.restorants-block a:hover {
+  color: #00B25C;
+  transition: 0.3s;
+}
+.restorants-block i {
+  font-size: 30px;
+  color: #FFFFFF;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+
+.buttons-conatiner {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.buttons-block button {
+  padding: 12px 33px;
+  background: transparent;
+  border: 1px solid #00B25C;
+  border-radius: 35px;
+  transition: 0.3s;
+}
+.buttons-block button:hover {
+  background: #00B25C;
+  transition: 0.3s;
+}
+.buttons-block button a {
+  color: #FFFFFF;
+}
+.buttons-block button a:hover {
+  text-decoration: none;
+}
+
+.left-i, .right-i {
+  display: none;
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+@media (max-width: 1040px) {
+  .to-eat-main__attraction-container {
+    display: none;
+  }
+
+  .to-eat-main .to-do-main__text {
+    align-items: center;
+    text-align: center;
+  }
+  .to-eat-main .to-do-main__text .to-eat-main__h1 {
+    width: 630px;
+  }
+  .to-eat-main .to-do-main__text .to-eat-main__h2 {
+    width: 570px;
+  }
+
+  .mini-guide-block-img {
+    display: none;
+  }
+
+  .mini-guide-block1 {
+    text-align: center;
+  }
+
+  .gastronomic-h2 {
+    max-width: 400px;
+  }
+
+  .left-i {
+    display: block;
+    padding: 10px 30px;
+    position: absolute;
+    top: 470px;
+    left: 5px;
+    transition: 0.3s;
+  }
+  .left-i:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
+
+  .right-i {
+    display: block;
+    padding: 10px 30px;
+    position: absolute;
+    top: 470px;
+    right: 5px;
+    transition: 0.3s;
+  }
+  .right-i:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
+
+  .mini-guide-container2 {
+    display: flex;
+  }
+
+  .mini-guide-container3 {
+    display: flex;
+  }
+}
+@media (max-width: 840px) {
+  .mini-guide-container2 {
+    display: flex;
+  }
+
+  .mini-guide-container3 {
+    display: flex;
+  }
+}
+@media (max-width: 480px) {
+  .to-eat-main .to-do-main__text .to-eat-main__h1-mini {
+    width: 300px;
+  }
+
+  .to-eat-main .to-do-main__text .to-eat-main__h2-mini {
+    width: 340px;
+  }
+
+  .mini-guide-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1240px;
+    border: 1px solid #FFFFFF;
+    margin-top: 100px;
+    padding: 0px;
+  }
+
+  .gastronomic-h1 {
+    font-weight: bold;
+    font-size: 35px;
+    width: 310px;
+    line-height: 59px;
+  }
+
+  .gastronomic-h2 {
+    padding-top: 45px;
+    width: 100%;
+    font-weight: normal;
+    font-size: 19px;
+    width: 310px;
+    line-height: 29px;
+  }
+
+  .duration-p {
+    padding-top: 45px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    width: 310px;
+  }
+  .duration-p span {
+    font-weight: normal;
+  }
+
+  .restorants-container {
+    margin-top: 60px;
+    width: 310px;
+  }
+
+  .restorants-block {
+    padding-bottom: 45px;
+  }
+  .restorants-block a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #FFFFFF;
+  }
+  .restorants-block i {
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-right: 30px;
+    vertical-align: middle;
+  }
+
+  .buttons-conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .buttons-conatiner .button-maps-mini {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .mini-guide-container2 {
+    display: flex;
+  }
+
+  .mini-guide-container3 {
+    display: flex;
   }
 }
