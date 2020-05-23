@@ -139,6 +139,17 @@ $(document).ready(function () {
             $(".burger__line_second").css('transform', 'rotate(0)');
         }
     })
+     $(window).resize(function () {
+        if ($(window).width() <= 1040) {
+            $(firstguide).show(300);
+            $(secondguide).show(300);
+            $(thirdguide).show(300);
+        } else if ($(window).width() > 1040) {
+            $(firstguide).show(300);
+            $(secondguide).hide(300);
+            $(thirdguide).hide(300);
+        }
+    })
     $(document).ready(function () {
         $("#menu").on("click", "a", function (event) {
             event.preventDefault();
