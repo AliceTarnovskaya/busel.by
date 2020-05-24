@@ -733,7 +733,7 @@ section.places {
     transition: 0.3s;
     color: white;
     text-align: center;
-    width: 800px;
+    max-width: 800px;
     font-size: 150px;
   }
   .numbers-block-main .numbers-block-main__discover-word .numbers-block-main__discover-text:hover {
@@ -2481,10 +2481,10 @@ h3 {
     text-align: center;
   }
   .to-eat-main .to-do-main__text .to-eat-main__h1 {
-    width: 630px;
+    max-width: 630px;
   }
   .to-eat-main .to-do-main__text .to-eat-main__h2 {
-    width: 570px;
+    max-width: 570px;
   }
 
   .mini-guide-block-img {
@@ -2544,11 +2544,11 @@ h3 {
 }
 @media (max-width: 480px) {
   .to-eat-main .to-do-main__text .to-eat-main__h1-mini {
-    width: 300px;
+    max-width: 300px;
   }
 
   .to-eat-main .to-do-main__text .to-eat-main__h2-mini {
-    width: 340px;
+    max-width: 340px;
   }
 
   .mini-guide-container {
@@ -2573,7 +2573,7 @@ h3 {
     width: 100%;
     font-weight: normal;
     font-size: 19px;
-    width: 310px;
+    max-width: 310px;
     line-height: 29px;
   }
 
@@ -2582,7 +2582,7 @@ h3 {
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    width: 310px;
+    max-width: 310px;
   }
   .duration-p span {
     font-weight: normal;
@@ -2590,7 +2590,7 @@ h3 {
 
   .restorants-container {
     margin-top: 60px;
-    width: 310px;
+    max-width: 310px;
   }
 
   .restorants-block {
