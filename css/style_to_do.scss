@@ -10,11 +10,18 @@ button:active, button:hover, button:focus {
 
 
 /* -----------START HEADER-------------  */
-
+.nav-link-main{
+    display: none;
+  }
 .todo-page-header {
     @include background-header(url(../img/to_do_page/todo_bg.png), cover, color-burn);
 }
 /* -----------END HEADER-------------  */
+@media(max-width: 840px){
+    .nav-link-main{
+        display: block;
+      }  
+}
 .to-eat-main .to-eat-main__text .to-do-page-h1{
     max-width: 850px;
 }

@@ -60,7 +60,7 @@ a.discover-link:hover {
   color: rgba(255, 255, 255, 0.04);
 }
 .numbers-block-main .numbers-block-main__number-place-block {
-  width: 240px;
+  max-width: 240px;
   transition: 0.3s;
 }
 .numbers-block-main .numbers-block-main__number-place-block:hover {
@@ -109,13 +109,13 @@ a.discover-link:hover {
   line-height: 61px;
   color: #ffffff;
   padding-bottom: 30px;
-  width: 444px;
+  max-width: 444px;
 }
 .to-eat-main .to-eat-main__text .to-eat-main__h1 .to-eat-main__h1-green {
   color: #00b25c;
 }
 .to-eat-main .to-eat-main__text .to-eat-main__h2 {
-  width: 592px;
+  max-width: 592px;
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
@@ -194,7 +194,7 @@ a.discover-link:hover {
   color: #ffffff;
 }
 .main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-inf {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .main-attraction-container .main-attraction-block-main .main-attraction-block-container-width .main-attraction-block-inf .main-attraction-block-inf-p {
   font-weight: normal;
@@ -319,7 +319,7 @@ a.discover-link:hover {
 
 .main-news p {
   font-weight: bold;
-  width: 520px;
+  max-width: 520px;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
@@ -364,7 +364,7 @@ a.discover-link:hover {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  width: 592px;
+  max-width: 592px;
   margin-bottom: 129px;
 }
 
@@ -386,7 +386,7 @@ a.discover-link:hover {
 }
 
 .lifehacks .lifehack-item {
-  width: 340px;
+  max-width: 340px;
   display: flex;
   flex-direction: column;
   transition: 0.5s;
@@ -570,7 +570,7 @@ section.places {
   }
 
   .text-center p {
-    width: 350px;
+    max-width: 350px;
   }
 
   .lifehack-item p {
@@ -580,7 +580,7 @@ section.places {
   }
 
   .btn-center {
-    width: 100px;
+    max-width: 100px;
     padding-left: 5px;
     padding-right: 0;
   }
@@ -645,7 +645,7 @@ section.places {
   }
 
   .logo-main {
-    width: 100px;
+    max-width: 100px;
     height: 70px;
   }
 
@@ -743,7 +743,7 @@ section.places {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 850px;
+    max-width: 850px;
     margin: 0 auto;
   }
   .numbers-block-main .numbers-block-main__number-place-block {
@@ -815,7 +815,7 @@ section.places {
   }
 
   .to-eat-main .to-eat-main__text .to-eat-main__h2 {
-    width: 300px;
+    max-width: 300px;
     font-size: 18px;
   }
 
@@ -1471,6 +1471,9 @@ body button {
   font-weight: 700;
   color: #FFFFFF;
 }
+.header-title-networks-container .nav-link-main {
+  display: none;
+}
 .header-title-networks-container .header-networks-container .social_networks {
   display: flex;
   justify-content: space-between;
@@ -1846,6 +1849,10 @@ footer {
     display: none;
   }
 
+  .nav-link-main {
+    display: block;
+  }
+
   .toSee-nav {
     position: relative;
   }
@@ -1857,7 +1864,7 @@ footer {
     left: 0;
     top: 90px;
     right: 23;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .BUSEL {
@@ -2037,7 +2044,7 @@ footer a {
   }
 
   .submenu .nav-link {
-    padding: 3.5px 8px;
+    padding: 3.5px 4px;
     font-size: 13px;
   }
 
@@ -2113,6 +2120,10 @@ button:active, button:hover, button:focus {
 
 /* To Do Page */
 /* -----------START HEADER-------------  */
+.nav-link-main {
+  display: none;
+}
+
 .todo-page-header {
   background: url(../img/to_do_page/todo_bg.png), linear-gradient(180deg, #000000 -7%, rgba(0, 0, 0, 0) 39.06%);
   background-repeat: no-repeat;
@@ -2122,6 +2133,11 @@ button:active, button:hover, button:focus {
 }
 
 /* -----------END HEADER-------------  */
+@media (max-width: 840px) {
+  .nav-link-main {
+    display: block;
+  }
+}
 .to-eat-main .to-eat-main__text .to-do-page-h1 {
   max-width: 850px;
 }

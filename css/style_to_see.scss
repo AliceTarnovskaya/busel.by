@@ -137,6 +137,9 @@ body {
       color: #FFFFFF;
     }
   }
+  .nav-link-main{
+    display: none;
+  }
 
   .header-networks-container {
     .social_networks {
@@ -523,6 +526,9 @@ footer {
   .busel-logo {
     display: none;
   }
+  .nav-link-main{
+    display: block;
+  }
   .toSee-nav{
     position: relative;
   }
@@ -533,7 +539,7 @@ footer {
     left: 0;
     top: 90px;
     right: 23;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .BUSEL {
@@ -724,7 +730,7 @@ footer {
   }
 
   .submenu .nav-link {
-    padding: 3.5px 8px;
+    padding: 3.5px 4px;
     font-size: 13px;
   }
 

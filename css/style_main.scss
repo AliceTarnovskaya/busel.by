@@ -75,7 +75,7 @@ a.discover-link {
   }
 
   .numbers-block-main__number-place-block {
-    width: 240px;
+    max-width: 240px;
     transition: 0.3s;
 
     &:hover {
@@ -132,7 +132,7 @@ a.discover-link {
       line-height: 61px;
       color: #ffffff;
       padding-bottom: 30px;
-      width: 444px;
+      max-width: 444px;
 
       .to-eat-main__h1-green {
         color: #00b25c;
@@ -140,7 +140,7 @@ a.discover-link {
     }
 
     .to-eat-main__h2 {
-      width: 592px;
+      max-width: 592px;
       font-size: 20px;
       line-height: 24px;
       color: #ffffff;
@@ -245,7 +245,7 @@ a.discover-link {
       }
 
       .main-attraction-block-inf {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
 
         .main-attraction-block-inf-p {
           // width: 277px;
@@ -395,7 +395,7 @@ a.discover-link {
 
 .main-news p {
   font-weight: bold;
-  width: 520px;
+  max-width: 520px;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
@@ -442,7 +442,7 @@ a.discover-link {
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  width: 592px;
+  max-width: 592px;
   margin-bottom: 129px;
 }
 
@@ -464,7 +464,7 @@ a.discover-link {
 }
 
 .lifehacks .lifehack-item {
-  width: 340px;
+  max-width: 340px;
   display: flex;
   flex-direction: column;
   transition: 0.5s;
@@ -678,7 +678,7 @@ section.places {
   }
 
   .text-center p {
-    width: 350px;
+    max-width: 350px;
   }
 
   .lifehack-item p {
@@ -689,7 +689,7 @@ section.places {
   }
 
   .btn-center {
-    width: 100px;
+    max-width: 100px;
     padding-left: 5px;
     padding-right: 0;
   }
@@ -771,7 +771,7 @@ section.places {
   // }
 
   .logo-main {
-    width: 100px;
+    max-width: 100px;
     height: 70px;
   }
 
@@ -902,7 +902,7 @@ section.places {
       // text-align: center;
       display: flex;
       justify-content: space-between;
-      width: 850px;
+      max-width: 850px;
       margin: 0 auto;
     }
     .numbers-block-main__number-place-block {
@@ -998,7 +998,7 @@ section.places {
   }
 
   .to-eat-main .to-eat-main__text .to-eat-main__h2 {
-    width: 300px;
+    max-width: 300px;
     font-size: 18px;
   }
 
