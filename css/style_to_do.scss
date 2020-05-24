@@ -16,17 +16,17 @@ button:active, button:hover, button:focus {
 }
 /* -----------END HEADER-------------  */
 .to-eat-main .to-eat-main__text .to-do-page-h1{
-    width: 850px;
+    max-width: 850px;
 }
 .to-eat-main .to-eat-main__text .to-do-page-h2{
-    width: 580px;
+    max-width: 580px;
 }
 @media(max-width: 520px){
     .to-eat-main .to-eat-main__text .to-do-page-h1{
-        width: 300px;
+        max-width: 300px;
     }
     .to-eat-main .to-eat-main__text .to-do-page-h2{
-        width: 280px;
+        max-width: 280px;
     }
 }
 

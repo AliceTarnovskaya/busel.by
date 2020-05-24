@@ -2123,20 +2123,20 @@ button:active, button:hover, button:focus {
 
 /* -----------END HEADER-------------  */
 .to-eat-main .to-eat-main__text .to-do-page-h1 {
-  width: 850px;
+  max-width: 850px;
 }
 
 .to-eat-main .to-eat-main__text .to-do-page-h2 {
-  width: 580px;
+  max-width: 580px;
 }
 
 @media (max-width: 520px) {
   .to-eat-main .to-eat-main__text .to-do-page-h1 {
-    width: 300px;
+    max-width: 300px;
   }
 
   .to-eat-main .to-eat-main__text .to-do-page-h2 {
-    width: 280px;
+    max-width: 280px;
   }
 }
 /* To Eat Page */
@@ -2151,11 +2151,11 @@ button:active, button:hover, button:focus {
 
 /* -----------END HEADER-------------  */
 .to-eat-main .to-eat-main__text .to-eat-page-h1 {
-  width: 800px;
+  max-width: 800px;
 }
 
 .to-eat-main .to-eat-main__text .to-eat-page-h2 {
-  width: 580px;
+  max-width: 580px;
 }
 
 .main-attraction-container1 {
@@ -2164,11 +2164,11 @@ button:active, button:hover, button:focus {
 
 @media (max-width: 480px) {
   .to-eat-main .to-eat-main__text .to-eat-page-h1 {
-    width: 300px;
+    max-width: 300px;
   }
 
   .to-eat-main .to-eat-main__text .to-eat-page-h2 {
-    width: 280px;
+    max-width: 280px;
   }
 }
 /* Mini Tours page */
@@ -2203,10 +2203,10 @@ body {
   text-align: left;
 }
 .to-eat-main .to-do-main__text .to-eat-main__h1 {
-  width: 630px;
+  max-width: 630px;
 }
 .to-eat-main .to-do-main__text .to-eat-main__h2 {
-  width: 570px;
+  max-width: 570px;
 }
 
 .main-attraction-container .main-attraction-block-main {
