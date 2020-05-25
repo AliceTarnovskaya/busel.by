@@ -1,31 +1,27 @@
-
 /* To Eat Page */
-
-
-/* -----------START HEADER-------------  */
 
 .toeat-page-header {
     @include background-header(url(../img/to_eat_page/203281.png), cover, color-burn);
 }
 
-/* -----------END HEADER-------------  */
-.to-eat-main .to-eat-main__text .to-eat-page-h1{
+.to-eat-main .to-eat-main__text .to-eat-page-h1 {
     max-width: 800px;
 }
-.to-eat-main .to-eat-main__text .to-eat-page-h2{
+
+.to-eat-main .to-eat-main__text .to-eat-page-h2 {
     max-width: 580px;
 }
-.main-attraction-container1{
+
+.main-attraction-container1 {
     padding-bottom: 20px;
 }
-.to-eat-page-to-eat-main__attraction-container{
-    // margin-top: 20px;
-}
-@media(max-width: 480px){
-    .to-eat-main .to-eat-main__text .to-eat-page-h1{
+
+@media(max-width: 480px) {
+    .to-eat-main .to-eat-main__text .to-eat-page-h1 {
         max-width: 300px;
     }
-    .to-eat-main .to-eat-main__text .to-eat-page-h2{
+
+    .to-eat-main .to-eat-main__text .to-eat-page-h2 {
         max-width: 280px;
     }
 }

@@ -1,33 +1,29 @@
-@charset "UTF-8";
-
-
-
-
-
 /* info part */
 
 .info-page-header {
   @include background-header(url(../img/info_page/3733.jpg), cover, color-burn);
 }
 
-
-button:active, button:hover, button:focus {
+button:active,
+button:hover,
+button:focus {
   outline: 0;
   outline-offset: 0;
-  }
+}
 
-
-.h1-header-info{
+.h1-header-info {
   font-size: 40px;
   font-weight: 700;
   color: #FFFFFF;
 }
-.span-header-info{
+
+.span-header-info {
   font-size: 80px;
   font-weight: 700;
   color: #FFFFFF;
 }
-.gradient-row-info{
+
+.gradient-row-info {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 39.21%, #000000 101.5%);
   min-height: 800px;
 }
@@ -35,7 +31,6 @@ button:active, button:hover, button:focus {
 .find {
   font-weight: bold;
   font-size: 40px;
-  
 }
 
 .inf {
@@ -80,8 +75,6 @@ button:active, button:hover, button:focus {
   padding-top: 140px;
   display: flex;
   justify-content: space-between;
-  // padding-bottom: 306.8px;
-  
 }
 
 .info-main {
@@ -162,12 +155,14 @@ button:active, button:hover, button:focus {
   font-family: "Montserrat", sans-serif !important;
 }
 
-.health, .taxfree {
+.health,
+.taxfree {
   margin: 5%;
   color: white;
 }
 
-.health, .taxfree {
+.health,
+.taxfree {
   font-size: 24px;
 }
 
@@ -186,7 +181,12 @@ a.underline {
   text-decoration: underline !important;
 }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   color: white;
 }
 
@@ -242,18 +242,22 @@ h1, h2, h3, h4, h5, p {
   margin: 0 2% !important;
   font-size: 10pt;
 }
-.health{
+
+.health {
   position: static;
 }
+
 .heart {
   z-index: 0;
   position: absolute;
   top: 100px;
   right: 0;
 }
-.health-flex{
+
+.health-flex {
   position: relative;
 }
+
 .card {
   background: transparent;
   z-index: 1;
@@ -261,11 +265,6 @@ h1, h2, h3, h4, h5, p {
   top: 14px;
   right: 660px;
   height: 393px;
-}
-
-footer {
-  padding-top: 236px;
-  background-image: url(../img/footer-bg.png);
 }
 
 .social-footer {
@@ -348,6 +347,7 @@ footer {
   .taxfree {
     margin-right: 20px;
   }
+
   .find {
     font-size: 30px;
   }
@@ -356,14 +356,18 @@ footer {
     font-size: 50px;
   }
 }
+
 @media (max-width: 840px) {
-  .h1-header-info{
+  .h1-header-info {
     font-size: 25px;
   }
-    .span-header-info{
-      font-size: 60px;
-    }
-  .health, .taxfree {
+
+  .span-header-info {
+    font-size: 60px;
+  }
+
+  .health,
+  .taxfree {
     font-size: 20px;
   }
 
@@ -380,26 +384,30 @@ footer {
     position: absolute;
     height: 476px;
     right: 0;
-
   }
 }
+
 @media (max-width: 520px) {
-  .h1-header-info{
+  .h1-header-info {
     font-size: 30px;
     font-weight: 700;
     color: #FFFFFF;
   }
-  .span-header-info{
+
+  .span-header-info {
     font-size: 55px;
     font-weight: 700;
     color: #FFFFFF;
   }
-  .to-see{
+
+  .to-see {
     max-width: 100%;
   }
-  .gradient-row-info{
+
+  .gradient-row-info {
     min-height: 550px;
   }
+
   .menu {
     display: none;
     position: absolute;
@@ -411,14 +419,13 @@ footer {
   }
 
   .nav-flex {
-    
+
     align-items: center;
   }
 
-  .none-block-info{
+  .none-block-info {
     display: none;
   }
-
 
   .inf-text {
     padding: 0;
@@ -433,8 +440,7 @@ footer {
     font-size: 40px;
   }
 
-  .inf-flex {
-    // padding-top: 100px;
+  .inf-flex {   
     display: flex;
     justify-content: space-between;
     padding-bottom: 150.8px;
@@ -460,10 +466,7 @@ footer {
 
   .heart {
     z-index: 0;
-    position: absolute;
-    // left: 174px;
-    // bottom: 0;
-    // top: 0;
+    position: absolute;   
     height: 476px;
     right: 0;
   }
