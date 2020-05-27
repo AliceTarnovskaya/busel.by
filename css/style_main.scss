@@ -14,18 +14,7 @@
 
 .container {
   max-width: 1250px;
-
 }
-
-// .to-see-main {
-//   display: flex;
-//   justify-content: row;
-
-//   h1 {
-//     // margin-left: -50px;
-//   }
-
-// }
 
 a.discover-link {
   max-width: 400px;
@@ -56,13 +45,10 @@ a.discover-link {
 
 .numbers-block-main {
   position: relative;
-  // width: 1440px;
   min-height: 662px;
   background: #000000;
 
   .numbers-block-main__discover-word {
-    // margin: 0 auto;
-    // width: 1200px;
     padding-top: 100px;
 
     .numbers-block-main__discover-text {
@@ -169,13 +155,10 @@ a.discover-link {
 
     background: #000000;
     position: relative;
-    // width: 409px;
     height: 523px;
 
     .main-attraction-block-img {
       transition: 0.5s;
-      // z-index: 1;
-      // width: 409px !important;
       height: 523px;
     }
 
@@ -185,7 +168,6 @@ a.discover-link {
       position: absolute;
       top: 0;
       z-index: 3;
-      //
       width: 409px;
 
       .main-attraction-block-container {
@@ -199,13 +181,10 @@ a.discover-link {
         margin-top: 25px;
 
         .main-attraction-block-star {
-
-          // width: ;
           .star {
             padding-right: 10px;
             color: #00b25c;
           }
-
           .span-star {
             color: #00b25c;
           }
@@ -228,7 +207,6 @@ a.discover-link {
 
         .main-attraction-block-h1 {
           text-align: center;
-
           font-weight: bold;
           font-size: 35px;
           line-height: 43px;
@@ -248,7 +226,6 @@ a.discover-link {
         margin-bottom: 30px;
 
         .main-attraction-block-inf-p {
-          // width: 277px;
           font-weight: normal;
           font-size: 16px;
           line-height: 20px;
@@ -266,7 +243,6 @@ a.discover-link {
         }
 
         .main-attraction-block-inf-p-inf {
-          // width: 277px;
           font-weight: normal;
           font-size: 12px;
           line-height: 20px;
@@ -347,7 +323,6 @@ a.discover-link {
 
     &:hover {
       border: 1px solid #00b25c;
-      // background: #00b25c;
       transition: 0.4s;
 
       .main-attraction-block-button-places-chek-button-a {
@@ -372,7 +347,7 @@ a.discover-link {
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
-  // justify-content: flex-end;
+
 }
 
 .dop-class-main-attraction-block-text {
@@ -380,8 +355,6 @@ a.discover-link {
 }
 
 // main page. karina's part
-
-
 
 .main-news {
   background: url('../img/main_page/news-bg-shadow.png'), url('../img/main_page/museum.jpg');
@@ -480,13 +453,9 @@ a.discover-link {
       transition: 0.5s;
     }
   }
-  /* height: 240px; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }
 
-.lifehacks .lifehack-item img {
-  
+.lifehacks .lifehack-item img {  
   margin-bottom: 50px;
 }
 
@@ -523,29 +492,6 @@ section.places {
   background-color: #000;
 
 }
-
-// @media(max-width: 1100px) {
-//   .container{
-//     width: 890px;
-//   }
-//   .numbers-block-main .numbers-block-main__number-place-block{
-//     width: 170px;
-//   }
-//   .numbers-block-main .numbers-block-main__discover-word .numbers-block-main__discover-text{
-//     font-size: 190px;
-//     padding-left: 100px; 
-//   }
-//   .numbers-block-main .numbers-block-main__number-place-block-text-h1{
-//     font-size: 70px;
-//     text-align: left;
-//     margin-bottom: 0;
-//   }
-//   .numbers-block-main .numbers-block-main__number-place-block .numbers-block-main__number-place-block-text-h2{
-//     font-size: 14px;
-//     // text-align: center;
-//   }
-// }
-
 
 @media (max-width: 480px) {
 
@@ -587,9 +533,7 @@ section.places {
   }
 
   .lifehack-block .lifehack-item p {
-    // width: auto;
     font-size: 14px;
-    // text-align: left;
   }
 
   .lifehack-block .lifehack-item {
@@ -685,7 +629,6 @@ section.places {
     font-size: 10px;
     width: 100%;
     text-align: center;
-    // margin-left: 20px;
   }
 
   .btn-center {
@@ -719,7 +662,6 @@ section.places {
     font-size: 17px;
   }
 
-
   .linkss {
     margin-top: 150px;
     padding-right: 5px;
@@ -738,8 +680,7 @@ section.places {
   }
 
   .main-news h2 {
-    font-size: 16px;
-    /* width: auto; */
+    font-size: 16px;   
     line-height: 27px;
     margin-bottom: 30px;
   }
@@ -754,21 +695,6 @@ section.places {
   .lifehacks .subtitle {
     width: auto;
   }
-
-
-  // footer .empty {
-  //   display: none;
-  // }
-
-  // footer h3 {
-  //   font-size: 22px;
-  // }
-
-  // footer {
-  //   background-size: cover;
-  //   background-position-x: 40%;
-
-  // }
 
   .logo-main {
     max-width: 100px;
@@ -827,10 +753,6 @@ section.places {
     padding-left: 200px !important;
   }
 
-  // .places {
-  //   display: none;
-  // }
-
   .networks i {
     font-size: 30px;
   }
@@ -855,31 +777,9 @@ section.places {
 
 // end karina's part
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 1040px) {
-  .numbers-block-main {
-    // width: 100%;
-    // height: 100%;
-    .numbers-block-main__discover-word {
-      // display: flex;
-      // justify-content: start;
+  .numbers-block-main {   
+    .numbers-block-main__discover-word {    
       transition: 0.3s;
       &:hover{
         transition: 0.3s;
@@ -889,8 +789,7 @@ section.places {
         transition: 0.3s;
         color: rgba(255, 255, 255, 1);
         text-align: center;
-        max-width: 800px;
-        // display: block;
+        max-width: 800px;       
         font-size: 150px;
         &:hover{
           transition: 0.3s;
@@ -898,18 +797,15 @@ section.places {
       }
     }
     .numbers-block-main__number-place-container{
-      width: 100%;
-      // text-align: center;
+      width: 100%;    
       display: flex;
       justify-content: space-between;
       max-width: 850px;
       margin: 0 auto;
     }
-    .numbers-block-main__number-place-block {
-      // width: 300px;
+    .numbers-block-main__number-place-block {     
       display: block;
-      position: static;
-      
+      position: static;      
     }
   }
 
@@ -940,16 +836,13 @@ section.places {
 
   .main-attraction-block-img {
     opacity: 0.2;
-
   }
-
 }
 
 
 @media(max-width: 840px) {
   .container {
     max-width: 580px;
-    ;
   }
 
   .numbers-block-main {
@@ -984,14 +877,11 @@ section.places {
     opacity: 0.2;
 
   }
-
-
 }
 
 @media(max-width: 480px) {
   .to-eat-main .to-eat-main__text .to-eat-main__h1 {
     font-size: 34px;
-
     .to-eat-main__h1-green {
       font-size: 34px;
     }

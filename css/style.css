@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -390,9 +389,6 @@ a.discover-link:hover {
   display: flex;
   flex-direction: column;
   transition: 0.5s;
-  /* height: 240px; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }
 .lifehacks .lifehack-item p {
   transition: 0.5s;
@@ -628,7 +624,6 @@ section.places {
 
   .main-news h2 {
     font-size: 16px;
-    /* width: auto; */
     line-height: 27px;
     margin-bottom: 30px;
   }
@@ -832,7 +827,9 @@ section.places {
   background-blend-mode: color-burn;
 }
 
-button:active, button:hover, button:focus {
+button:active,
+button:hover,
+button:focus {
   outline: 0;
   outline-offset: 0;
 }
@@ -981,12 +978,14 @@ button:active, button:hover, button:focus {
   font-family: "Montserrat", sans-serif !important;
 }
 
-.health, .taxfree {
+.health,
+.taxfree {
   margin: 5%;
   color: white;
 }
 
-.health, .taxfree {
+.health,
+.taxfree {
   font-size: 24px;
 }
 
@@ -1005,7 +1004,12 @@ a.underline {
   text-decoration: underline !important;
 }
 
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   color: white;
 }
 
@@ -1084,11 +1088,6 @@ h1, h2, h3, h4, h5, p {
   top: 14px;
   right: 660px;
   height: 393px;
-}
-
-footer {
-  padding-top: 236px;
-  background-image: url(../img/footer-bg.png);
 }
 
 .social-footer {
@@ -1189,7 +1188,8 @@ footer {
     font-size: 60px;
   }
 
-  .health, .taxfree {
+  .health,
+.taxfree {
     font-size: 20px;
   }
 
@@ -1918,7 +1918,6 @@ footer {
   .header-title-networks-container .header-networks-container .social_networks .social-networks-i {
     color: white;
     transition-duration: 0.3s;
-    /* padding: 20px; */
   }
   .header-title-networks-container .header-networks-container .social_networks .social-networks-i:hover {
     color: #00B25C;
@@ -1927,7 +1926,6 @@ footer {
 
   .nav-link-langue {
     padding: 1px 5px;
-    /* padding: 2px 6px; */
   }
 
   .text-img {
@@ -2095,7 +2093,6 @@ footer a {
   .header-title-networks-container .header-networks-container .social_networks .social-networks-i {
     color: white;
     transition-duration: 0.3s;
-    /* padding: 20px; */
   }
   .header-title-networks-container .header-networks-container .social_networks .social-networks-i:hover {
     color: #00B25C;
@@ -2112,14 +2109,7 @@ footer a {
     font-size: 12px;
   }
 }
-/* убираем синюю обводку при нажатии на кнопку */
-button:active, button:hover, button:focus {
-  outline: 0;
-  outline-offset: 0;
-}
-
 /* To Do Page */
-/* -----------START HEADER-------------  */
 .nav-link-main {
   display: none;
 }
@@ -2132,7 +2122,6 @@ button:active, button:hover, button:focus {
   background-blend-mode: color-burn;
 }
 
-/* -----------END HEADER-------------  */
 @media (max-width: 840px) {
   .nav-link-main {
     display: block;
@@ -2156,7 +2145,6 @@ button:active, button:hover, button:focus {
   }
 }
 /* To Eat Page */
-/* -----------START HEADER-------------  */
 .toeat-page-header {
   background: url(../img/to_eat_page/203281.png), linear-gradient(180deg, #000000 -7%, rgba(0, 0, 0, 0) 39.06%);
   background-repeat: no-repeat;
@@ -2165,7 +2153,6 @@ button:active, button:hover, button:focus {
   background-blend-mode: color-burn;
 }
 
-/* -----------END HEADER-------------  */
 .to-eat-main .to-eat-main__text .to-eat-page-h1 {
   max-width: 800px;
 }
@@ -2188,7 +2175,6 @@ button:active, button:hover, button:focus {
   }
 }
 /* Mini Tours page */
-/* -----------START HEADER-------------  */
 .mini-tours-page-header {
   background: url(../img/miniTours_page/74271.png), linear-gradient(180deg, #000000 -7%, rgba(0, 0, 0, 0) 39.06%);
   background-repeat: no-repeat;
@@ -2197,7 +2183,6 @@ button:active, button:hover, button:focus {
   background-blend-mode: color-burn;
 }
 
-/* -----------END HEADER-------------  */
 body {
   background: black;
 }
@@ -2373,6 +2358,7 @@ h3 {
   border: 1px solid #FFFFFF;
   margin-top: 100px;
   padding: 80px 50px;
+  margin-bottom: 80px;
 }
 
 .mini-guide-container2 {
@@ -2465,7 +2451,8 @@ h3 {
   text-decoration: none;
 }
 
-.left-i, .right-i {
+.left-i,
+.right-i {
   display: none;
   color: #FFFFFF;
   font-size: 50px;
