@@ -69,54 +69,14 @@ $(document).ready(function () {
             $(thirdguide).css('display', 'flex');
 
         });
-        // $(right).click(function () {
-        //     // znakleft();
-        //     if($(firstguide).css('display') == 'flex'){
-        //         $(secondguide).show(300);
-        //         $(firstguide).hide(300);
-        //     } if($(secondguide).css('display') == 'flex'){
-        //         $(thirdguide).show(300);
-        //         $(secondguide).hide(300);
-        //     } if($(thirdguide).css('display') == 'flex'){
-        //         $(firstguide).show(300);
-        //         $(thirdguide).hide(300);
-        //     }
-        //     // alert('left');
-        //     // if($(firstguide).css('display', 'flex')){
-        //     //     $(secondguide).show(300);
-        //     //     $(firstguide).hide(300);
-        //     // } else if($(secondguide).css('display', 'flex')){
-        //     //     $(thirdguide).show(300);
-        //     //     $(secondguide).hide(300);
-        //     // } else if($(thirdguide).css('display', 'flex')){
-        //     //     $(firstguide).show(300);
-        //     //     $(thirdguide).hide(300);
-        //     // }
-        //     // $(secondguide).show(300);
-        //     // $(firstguide).hide(300);
-        //     // $(thirdguide).hide(300);
-        //     // $(secondguide).css('display', 'flex');
-
-        // });
-        // $(left).click(function () {
-        //     if($(firstguide).css('display') == 'flex'){
-        //         $(thirdguide).show(300);
-        //         $(firstguide).hide(300);
-        //     } else if($(secondguide).css('display') == 'flex'){
-        //         $(firstguide).show(300);
-        //         $(secondguide).hide(300);
-        //     } else if($(thirdguide).css('display') == 'flex'){
-        //         $(secondguide).show(300);
-        //         $(thirdguide).hide(300);
-        //     }
-
-        // });
     });
     let button = document.getElementById("clickblock");
     let navmenu = document.getElementById("b");
+    let upp = document.getElementById("Up");
     let number = 1;
+    let numberTwo = 1;
     let i = 1;
-    $(button).click(function() {
+    $(button).click(function () {
         number++
         if (number % 2 == 0) {
             $(b).show(300);
@@ -139,7 +99,7 @@ $(document).ready(function () {
             $(".burger__line_second").css('transform', 'rotate(0)');
         }
     })
-     $(window).resize(function () {
+    $(window).resize(function () {
         if ($(window).width() <= 1040) {
             $(firstguide).show(300);
             $(secondguide).show(300);
@@ -150,13 +110,34 @@ $(document).ready(function () {
             $(thirdguide).hide(300);
         }
     })
-    $(document).ready(function () {
-        $("#menu").on("click", "a", function (event) {
-            event.preventDefault();
-            var id = $(this).attr('href'),
-                top = $(id).offset().top;
-            $('body,html').animate({ scrollTop: top }, 600);
-        });
+    $("#menu").on("click", "#a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({
+            scrollTop: top
+        }, 600);
     });
-    
+    $("#UpDownBut").click(function () {
+
+        numberTwo++
+        if (numberTwo % 2 == 0) {
+            $("#Up").css('transform', 'rotate(0deg)');
+        } else {
+            $("#Up").css('transform', 'rotate(180deg)');
+        }
+        if (upp.style.transform == 'rotate(0deg)') {
+            document.getElementById("uppp").href = "#header";
+        } else if (upp.style.transform == 'rotate(180deg)') {
+            document.getElementById("uppp").href = "#footer";
+        }
+    })
+    $("#UpDownBut").on("click", "a", function (event) {
+        event.preventDefault();
+        var id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({
+            scrollTop: top
+        }, 600);
+    });
 })
