@@ -8,6 +8,9 @@
     @include background-header(url(../img/to_do_page/todo_bg.png), cover, color-burn);
 }
 
+.main-attraction-container2{
+    margin-bottom: 50px;
+}
 @media(max-width: 840px) {
     .nav-link-main {
         display: block;

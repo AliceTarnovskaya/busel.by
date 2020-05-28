@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header class="todo-page-header">
+    <header id="header" class="todo-page-header">
         <div class="gradient-header">
             <div class="gradient-row">
                 <div class="container">
@@ -71,7 +71,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="do">
         <div class="container">
             <div class="to-eat-main">
                 <div class="to-eat-main__text">
@@ -195,7 +195,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="to-eat-main__attraction-container main-attraction-container main-attraction-container1">
+                <div class="to-eat-main__attraction-container main-attraction-container main-attraction-container2">
                     <div class="to-eat-main__attraction-block main-attraction-block-main">
 
                         <img class="attraction-block-img main-attraction-block-img" src="img/main_page/one1.png" alt="">
@@ -314,7 +314,7 @@
         </div>
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="gradient-footer">
             <div class="container">
                 <div class="row footer">
@@ -343,15 +343,15 @@
                     <div class="col-4 footer-block">
                         <div class="links">
                             <p class="quick-link">Quick Links</p>
-                            <ul class="quick-link-ul">
-                                <li class="quick-link-li"><a class="quick-link-a" href="#">Home</a></li>
-                                <li class="quick-link-li"><a class="quick-link-a" href="#">Places to eat</a></li>
-                                <li class="quick-link-li"><a class="quick-link-a" href="#">Places to do</a></li>
-                                <li class="quick-link-li"><a class="quick-link-a" href="#">Places to see</a></li>
-                                <li class="quick-link-li"><a class="quick-link-a" href="#">Mini-guides</a></li>
-                                <li class="quick-link-li"><a class="quick-link-a" href="/index_info.html">Info</a></li>
-                                <li class="quick-link-li"><a class="quick-link-a" href="#">Faq</a></li>
-                            </ul>
+                            <ul id="menu" class="quick-link-ul">
+								<li class="quick-link-li"><a class="quick-link-a" href="index.html">Home</a></li>
+								<li class="quick-link-li"><a class="quick-link-a" href="index_toeat.html">Places to eat</a></li>
+								<li class="quick-link-li"><a id="a" class="quick-link-a" href="#do">Places to do</a></li>
+								<li class="quick-link-li"><a class="quick-link-a" href="index_toSee.html">Places to see</a></li>
+								<li class="quick-link-li"><a class="quick-link-a" href="index_miniTours.html">Mini-guides</a></li>
+								<li class="quick-link-li"><a class="quick-link-a" href="index_info.html">Info</a></li>
+								<li class="quick-link-li"><a id="a" class="quick-link-a" href="#header">Faq</a></li>
+							</ul>
                         </div>
                     </div>
                     <div class="col-4 footer-block">
@@ -371,6 +371,9 @@
             </div>
         </div>
     </footer>
+    <div id="UpDownBut">
+        <a id="uppp" class="up-down" href="#footer"><i id="Up" class="fas fa-chevron-up i-up"></i></a>
+    </div>
 
 
     <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
