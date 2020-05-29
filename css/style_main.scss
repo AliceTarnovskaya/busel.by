@@ -913,19 +913,25 @@ section.places {
 
 .up-down {
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 60px;
+  right: 345px;
   display: inline-block;
-  border: #FFFFFF 1px solid;
+  border: #FFFFFF 5px solid;
   background: transparent;
   border-radius: 50px;
-  padding: 18px 20px;
+  padding: 10px 12px;
   transition: 0.2s;
 
   animation: scale  2s infinite ease-in-out;
+  &:hover{
+    background: #FFFFFF;
+    i {
+      color: black;
+    }
+  }
   i {
     color: #FFFFFF;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   text-decoration: none;
